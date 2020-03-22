@@ -1,0 +1,39 @@
+ART = {
+    ### Distant Worlds - Insectoid ###
+    boskara     = { name = Boskara      plural = Boskarans  home_planet = Boskar    home_system = Boskar    name_list = "ui_extra_art1" }
+    dhayut      = { name = Dhayut       plural = Dhayuti    home_planet = Dhayut    home_system = Dhayut    name_list = "ui_extra_art1" }
+    gizurean    = { name = Gizurean     plural = Gizureans  home_planet = Gizurea   home_system = Gizurea   name_list = "ui_extra_art1" }
+    shakturi    = { name = Shakturi     plural = Shakturi   home_planet = Shaktur   home_system = Shaktur   name_list = "ui_extra_art1" }
+    sluken      = { name = Sluken       plural = Slukens    home_planet = Sluken    home_system = Sluken    name_list = "ui_extra_art1" }
+}
+
+MAM = {
+    ### Distant Worlds - Rodent ###
+    atuuk       = { name = Atuuk        plural = Atuukans   home_planet = Atuuk     home_system = Atuuk     name_list = "ui_extra_mam1" }
+    teekan      = { name = Teekan       plural = Teekans    home_planet = Teeka     home_system = Teeka     name_list = "ui_extra_mam2" }
+    ugnari      = { name = Ugnari       plural = Ugnari     home_planet = Ugnar     home_system = Ugnar     name_list = "ui_extra_mam1" }
+    zenox       = { name = Zenox        plural = Zenoxi     home_planet = Zenox     home_system = Zenox     name_list = "ui_extra_mam2" }
+
+    ### Distant Worlds - Ursidian ###
+    ikkuro      = { name = Ikkuro       plural = Ikkurans   home_planet = Ikkuro    home_system = Ikkuro    name_list = "ui_extra_mam1" }
+    ketarov     = { name = Ketarov      plural = Ketarovans home_planet = Ketarov   home_system = Ketarov   name_list = "ui_extra_mam2" }
+}
+
+REP = {
+    ### Distant Worlds - Amphibian ###
+    ackdarian   = { name = Ackdarian    plural = Ackdarians home_planet = Ackdar    home_system = Ackdar    name_list = "ui_extra_rep1" }
+    quameno     = { name = Quameno      plural = Quameni    home_planet = Quameno   home_system = Quameno   name_list = "ui_extra_rep2" }
+    wekkarus    = { name = Wekkarus     plural = Wekkarus   home_planet = Wekkarus  home_system = Wekkarus  name_list = "ui_extra_rep3" }
+
+    ### Distant Worlds - Reptilian ###
+    haakonish   = { name = Haakonish    plural = Haakonishi home_planet = Haakon    home_system = Haakon    name_list = "ui_extra_rep1" }
+    mortalen    = { name = Mortalen     plural = Mortalens  home_planet = Mortalen  home_system = Mortalen  name_list = "ui_extra_rep2" }
+    naxxilian   = { name = Naxxilian    plural = Naxxilians home_planet = Naxxilia  home_system = Naxxilia  name_list = "ui_extra_rep3" }
+    shandar     = { name = Shandar      plural = Shandari   home_planet = Shanda    home_system = Shandar   name_list = "ui_extra_rep1" }
+}
+
+HUM = {
+    ### Distant Worlds - Humanoid ###
+    kiadian     = { name = Kiadian      plural = Kiadians   home_planet = Kiadia    home_system = Kiadia    name_list = "ui_extra_hum1" }
+    securan     = { name = Securan      plural = Securans   home_planet = Secura    home_system = Secura    name_list = "ui_extra_hum1" }
+}

@@ -1,0 +1,1 @@
+# stellaris-ui-species-names

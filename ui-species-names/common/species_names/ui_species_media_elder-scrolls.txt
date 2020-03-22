@@ -1,0 +1,83 @@
+HUM = {
+    ### Elder Scrolls - Altmer ###
+    arynirya    = { name = "Arynirya"   plural = "Aryniris"     home_planet = "Arynorne"    home_system = "Arya"        name_list = "ui_elderscrolls_altmer" }
+    careion     = { name = "Careion"    plural = "Careios"      home_planet = "Careniil"    home_system = "Carea"       name_list = "ui_elderscrolls_altmer" }
+    elannwe     = { name = "Elannwe"    plural = "Elannwis"     home_planet = "Elannil"     home_system = "Auri'Ela"    name_list = "ui_elderscrolls_altmer" }
+    falacelmo   = { name = "Falacelmo"  plural = "Falacelmos"   home_planet = "Falaceniim"  home_system = "Fala"        name_list = "ui_elderscrolls_altmer" }
+    ilmillon    = { name = "Ilmillon"   plural = "Imlillons"    home_planet = "Ilmindril"   home_system = "Ilmafe"      name_list = "ui_elderscrolls_altmer" }
+    kaeano      = { name = "Kaeano"     plural = "Kaeani"       home_planet = "Kaeaniil"    home_system = "Kaea"        name_list = "ui_elderscrolls_altmer" }
+    lyllithil   = { name = "Lyllithil"  plural = "Lyllithili"   home_planet = "Lyliisen"    home_system = "Tilwe"       name_list = "ui_elderscrolls_altmer" }
+    noriaril    = { name = "Noriaril"   plural = "Noriarils"    home_planet = "Norrinorne"  home_system = "Noril"       name_list = "ui_elderscrolls_altmer" }
+
+    ### Elder Scrolls - Orc ###
+    bargog  = { name = "Bargog"     plural = "Bargogs"  home_planet = "Bargog"  home_system = "Barg"    name_list = "ui_elderscrolls_orc" }
+    brokmul = { name = "Brokmul"    plural = "Brokmuli" home_planet = "Brokmul" home_system = "Brok"    name_list = "ui_elderscrolls_orc" }
+    cobok   = { name = "Cobok"      plural = "Coboks"   home_planet = "Cobok"   home_system = "Cobo"    name_list = "ui_elderscrolls_orc" }
+    dusgak  = { name = "Dusgak"     plural = "Dusgaki"  home_planet = "Dusgak"  home_system = "Dusga"   name_list = "ui_elderscrolls_orc" }
+    ghorzul = { name = "Ghorzul"    plural = "Ghorzuls" home_planet = "Ghorzul" home_system = "Ghor"    name_list = "ui_elderscrolls_orc" }
+    gluuk   = { name = "Gluuk"      plural = "Gluuki"   home_planet = "Gluuk"   home_system = "Gluuk"   name_list = "ui_elderscrolls_orc" }
+    gograk  = { name = "Gograk"     plural = "Gograki"  home_planet = "Gograk"  home_system = "Gogra"   name_list = "ui_elderscrolls_orc" }
+    kurdnak = { name = "Kurdnak"    plural = "Kurdnaki" home_planet = "Kurdnak" home_system = "Kurd"    name_list = "ui_elderscrolls_orc" }
+    malkrum = { name = "Malkrum"    plural = "Malkrums" home_planet = "Malkrum" home_system = "Malk"    name_list = "ui_elderscrolls_orc" }
+    mazoc   = { name = "Mazoc"      plural = "Mazocs"   home_planet = "Mazoc"   home_system = "Maz"     name_list = "ui_elderscrolls_orc" }
+    mogguk  = { name = "Mogguk"     plural = "Mogguki"  home_planet = "Mogguk"  home_system = "Mogg"    name_list = "ui_elderscrolls_orc" }
+    mukla   = { name = "Mukla"      plural = "Mukli"    home_planet = "Mukla"   home_system = "Muk"     name_list = "ui_elderscrolls_orc" }
+    ogoll   = { name = "Ogoll"      plural = "Ogolls"   home_planet = "Ogoll"   home_system = "Ogo"     name_list = "ui_elderscrolls_orc" }
+    shursh  = { name = "Shursh"     plural = "Shurshi"  home_planet = "Shursh"  home_system = "Shur"    name_list = "ui_elderscrolls_orc" }
+    yamkul  = { name = "Yamkul"     plural = "Yamkuli"  home_planet = "Yamkul"  home_system = "Yam"     name_list = "ui_elderscrolls_orc" }
+}
+
+MAM = {
+    ### TES - Khajiit ###
+    akdara      = { name = Ak'dara      plural = Ak'dari    home_planet = Ak'dar    home_system = Ak'dar    name_list = "ui_elderscrolls_khajiit" }
+    akdul       = { name = Ak'dul       plural = Ak'duls    home_planet = Ak'dul    home_system = Ak'dul    name_list = "ui_elderscrolls_khajiit" }
+    dojirr      = { name = Do'jirr      plural = Do'jirri   home_planet = Do'ji     home_system = Do'ji     name_list = "ui_elderscrolls_khajiit" }
+    jasma       = { name = Ja'sma       plural = Ja'smi     home_planet = Ja'smar   home_system = Ja'smar   name_list = "ui_elderscrolls_khajiit" }
+    jodato      = { name = Jodato       plural = Jodati     home_planet = Jodato    home_system = Joda      name_list = "ui_elderscrolls_khajiit" }
+    khaargo     = { name = Khaargo      plural = Khaargos   home_planet = Khaar     home_system = Khaar     name_list = "ui_elderscrolls_khajiit" }
+    mapi        = { name = Ma'pi        plural = Ma'pi      home_planet = Ma'pi     home_system = Ma'pi     name_list = "ui_elderscrolls_khajiit" }
+    mojbassa    = { name = Mojbassa     plural = Mojbassi   home_planet = Mojba     home_system = Moj       name_list = "ui_elderscrolls_khajiit" }
+    omtabe      = { name = Omtabe       plural = Omtabi     home_planet = Omtabu    home_system = Omtabu    name_list = "ui_elderscrolls_khajiit" }
+    qasrin      = { name = Qa'srin      plural = Qa'srin    home_planet = Qa'srin   home_system = Qa'srin   name_list = "ui_elderscrolls_khajiit" }
+    ratasarr    = { name = Ra'tasarr    plural = Ra'tasarri home_planet = Ra'tas    home_system = Ra'tas    name_list = "ui_elderscrolls_khajiit" }
+    rimada      = { name = Ri'mada      plural = Ri'madi    home_planet = Ri'ma     home_system = Ri'ma     name_list = "ui_elderscrolls_khajiit" }
+    sholkir     = { name = Sholkir      plural = Sholkiri   home_planet = Sholk     home_system = Shol      name_list = "ui_elderscrolls_khajiit" }
+    zaiq        = { name = Za'iq        plural = Za'iqi     home_planet = Za'iq     home_system = Za'iq     name_list = "ui_elderscrolls_khajiit" }
+    zantarr     = { name = Zan'tarr     plural = Zan'tarri  home_planet = Zan'tarr  home_system = Zan       name_list = "ui_elderscrolls_khajiit" }
+    zodash      = { name = Zodash       plural = Zodashi    home_planet = Zodash    home_system = Zodash    name_list = "ui_elderscrolls_khajiit" }
+}
+
+PLANT = {
+    ### TES - Spriggan ###
+    adiica      = { name = Adiica   plural = Adiicans   home_planet = Adii      home_system = Adii      name_list = "ui_elderscrolls_spriggan" }
+    angone      = { name = Angone   plural = Angoneans  home_planet = Angon     home_system = Ango      name_list = "ui_elderscrolls_spriggan" }
+    anneth      = { name = Anneth   plural = Anneti     home_planet = Anneth    home_system = Anneth    name_list = "ui_elderscrolls_spriggan" }
+    bjalief     = { name = Bjalief  plural = Bjalief    home_planet = Bjal      home_system = Bjal      name_list = "ui_elderscrolls_spriggan" }
+    bolnir      = { name = Bolnir   plural = Bolniri    home_planet = Bolnira   home_system = Bolna     name_list = "ui_elderscrolls_spriggan" }
+    brassta     = { name = Brassta  plural = Brassti    home_planet = Brasst    home_system = Brass     name_list = "ui_elderscrolls_spriggan" }
+    elsera      = { name = Elsera   plural = Elserans   home_planet = Elsera    home_system = Elsera    name_list = "ui_elderscrolls_spriggan" }
+    frysund     = { name = Frysund  plural = Frysundi   home_planet = Frys      home_system = Frys      name_list = "ui_elderscrolls_spriggan" }
+    hodda       = { name = Hodda    plural = Hoddi      home_planet = Hodd      home_system = Hodd      name_list = "ui_elderscrolls_spriggan" }
+    illevi      = { name = Illevi   plural = Illevi     home_planet = Illev     home_system = Ille      name_list = "ui_elderscrolls_spriggan" }
+    laidi       = { name = Laidi    plural = Laidi      home_planet = Laid      home_system = Laid      name_list = "ui_elderscrolls_spriggan" }
+    ondri       = { name = Ondri    plural = Ondri      home_planet = Ondri     home_system = Ondri     name_list = "ui_elderscrolls_spriggan" }
+    reytur      = { name = Reytur   plural = Reyturi    home_planet = Reytur    home_system = Reytur    name_list = "ui_elderscrolls_spriggan" }
+    rikkba      = { name = Rikkba   plural = Rikkbans   home_planet = Rikkb     home_system = Rikkb     name_list = "ui_elderscrolls_spriggan" }
+    torritte    = { name = Torritte plural = Torrittes  home_planet = Torri     home_system = Torri     name_list = "ui_elderscrolls_spriggan" }
+}
+
+REP = {
+    ### TES - Argonian ###
+    amuseixth   = { name = "Amuseixth"      plural = "Amuseixthi"   home_planet = "Amusei"  home_system = "Amus"    name_list = "ui_extra_elderscrolls_argonian" }
+    bourmenari  = { name = "Bour-Menari"    plural = "Bour-Menari"  home_planet = "Bour"    home_system = "Menari"  name_list = "ui_extra_elderscrolls_argonian" }
+    deeshleith  = { name = "Deesh-Leith"    plural = "Deesh-Leiths" home_planet = "Deesh"   home_system = "Leith"   name_list = "ui_extra_elderscrolls_argonian" }
+    drujei      = { name = "Drujei"         plural = "Drujis"       home_planet = "Druji"   home_system = "Dru"     name_list = "ui_extra_elderscrolls_argonian" }
+    erkajin     = { name = "Er-Kajin"       plural = "Er-Kajins"    home_planet = "Er"      home_system = "Kajin"   name_list = "ui_extra_elderscrolls_argonian" }
+    gulummaht   = { name = "Gulum-Maht"     plural = "Gulum-Mahts"  home_planet = "Gulum"   home_system = "Maht"    name_list = "ui_extra_elderscrolls_argonian" }
+    haraiith    = { name = "Haraiith"       plural = "Haraiithi"    home_planet = "Hara"    home_system = "Ithi"    name_list = "ui_extra_elderscrolls_argonian" }
+    kudoeji     = { name = "Kudo-Eji"       plural = "Kudo-Eji"     home_planet = "Kudo"    home_system = "Eji"     name_list = "ui_extra_elderscrolls_argonian" }
+    neehota     = { name = "Neehota"        plural = "Neehoti"      home_planet = "Nee"     home_system = "Hota"    name_list = "ui_extra_elderscrolls_argonian" }
+    oleedjulan  = { name = "Oleed-Julan"    plural = "Oleed-Julans" home_planet = "Oleed"   home_system = "Julan"   name_list = "ui_extra_elderscrolls_argonian" }
+    skalhee     = { name = "Skalhee"        plural = "Skalhees"     home_planet = "Skal"    home_system = "Hee"     name_list = "ui_extra_elderscrolls_argonian" }
+    visthaneeus = { name = "Vistha-Neeus"   plural = "Vistha-Neeus" home_planet = "Vistha"  home_system = "Neeus"   name_list = "ui_extra_elderscrolls_argonian" }
+}

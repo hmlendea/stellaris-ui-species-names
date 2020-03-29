@@ -15,4 +15,21 @@ AVI = {
     verinyn     = { name = Verinyn  plural = Verinyns   home_planet = Verinyna  home_system = Verin     name_list = "ui_extra_avi1" }
     xyphon      = { name = Xyphon   plural = Xyphonans  home_planet = Xyphona   home_system = Xyph      name_list = "ui_extra_avi1" }
     zeryn       = { name = Zeryn    plural = Zeryni     home_planet = Zerynia   home_system = Zeryn     name_list = "ui_extra_avi1" }
+
+    ### Extra Avians 2 ###
+    allowk      = { name = Allowk   plural = Allowks    home_planet = Allowoq       home_system = Allowka   name_list = "ui_extra_avi2" }
+    sqaiw       = { name = Sqaiw    plural = Sqaiwi     home_planet = Sqaiwoq       home_system = Sqaiwa    name_list = "ui_extra_avi2" }
+    qrooth      = { name = Qrooth   plural = Qrooths    home_planet = Qroothoq      home_system = Qrootha   name_list = "ui_extra_avi2" }
+    groorith    = { name = Groorith plural = Grooriths  home_planet = Groorithoq    home_system = Grooritha name_list = "ui_extra_avi2" }
+    ceawk       = { name = Ceawk    plural = Ceawks     home_planet = Ceawkoq       home_system = Ceawka    name_list = "ui_extra_avi2" }
+    sqeesiw     = { name = Sqeessiw plural = Sqeessiws  home_planet = Sqeessiwoq    home_system = Sqeessiwa name_list = "ui_extra_avi2" }
+    geruth      = { name = Geruth   plural = Geruths    home_planet = Geruthoq      home_system = Gerutha   name_list = "ui_extra_avi2" }
+    skrishra    = { name = Skrishra plural = Skrishrai  home_planet = Skrishroq     home_system = Skrishra  name_list = "ui_extra_avi2" }
+    qribbit     = { name = Qribbit  plural = Qribbits   home_planet = Qribbitoq     home_system = Qribbit   name_list = "ui_extra_avi2" }
+    khiellt     = { name = Khiellot plural = Khielloti  home_planet = Khiellotoq    home_system = Khiellota name_list = "ui_extra_avi2" }
+    quan        = { name = Quan     plural = Quans      home_planet = Quanoq        home_system = Quana     name_list = "ui_extra_avi2" }
+    roon        = { name = Roon     plural = Roons      home_planet = Roonoq        home_system = Roona     name_list = "ui_extra_avi2" }
+    skerrih     = { name = Skerrih  plural = Skerrihs   home_planet = Skerrihoq     home_system = Skerriha  name_list = "ui_extra_avi2" }
+    coonu       = { name = Coonu    plural = Coonus     home_planet = Coonuoq       home_system = Coonua    name_list = "ui_extra_avi2" }
+    skait       = { name = Skait    plural = Skaits     home_planet = Skaitoq       home_system = Skaita    name_list = "ui_extra_avi2" }
 }

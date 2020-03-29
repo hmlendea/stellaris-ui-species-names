@@ -3,5 +3,4 @@ path="mod/ui-species-names"
 tags={
     "Species"
 }
-picture="ui.jpg"
-supported_version="2.5.*"
+supported_version="2.6.*"

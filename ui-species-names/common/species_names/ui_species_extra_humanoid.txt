@@ -15,4 +15,21 @@ HUM = {
     vegranir    = { name = Vegranir plural = Vegrans    home_planet = Vegranor      home_system = Vegry     name_list = "ui_extra_hum1" }
     velmor      = { name = Velmor   plural = Velmori    home_planet = Velmoron      home_system = Velmy     name_list = "ui_extra_hum1" }
     votrag      = { name = Votrag   plural = Votrag     home_planet = Votrag        home_system = Votrag    name_list = "ui_extra_hum1" }
+
+    ### Extra Humanoids 2 ###
+    elandoran   = { name = Elandoran    plural = Elandorans home_planet = Elandoras     home_system = Elandor   name_list = "ui_extra_hum2" }
+    phyrran     = { name = Phyrran      plural = Phyrrans   home_planet = Phyrras       home_system = Phyrr     name_list = "ui_extra_hum2" }
+    heross      = { name = Heross       plural = Herossi    home_planet = Herossas      home_system = Heross    name_list = "ui_extra_hum2" }
+    aamel       = { name = Aamel        plural = Aamels     home_planet = Aamelas       home_system = Aam       name_list = "ui_extra_hum2" }
+    wallan      = { name = Wallan       plural = Wallans    home_planet = Wallas        home_system = Wallar    name_list = "ui_extra_hum2" }
+    kaeyan      = { name = Kaeyan       plural = Kaeyans    home_planet = Kaeyas        home_system = Kaey      name_list = "ui_extra_hum2" }
+    gwenne      = { name = Gwenne       plural = Gwennes    home_planet = Gwennas       home_system = Gwenna    name_list = "ui_extra_hum2" }
+    eradyl      = { name = Eradyl       plural = Eradyls    home_planet = Eradylas      home_system = Erad      name_list = "ui_extra_hum2" }
+    earwhal     = { name = Earwhal      plural = Earwhals   home_planet = Earwhalas     home_system = Earwha    name_list = "ui_extra_hum2" }
+    aurelle     = { name = Aurelle      plural = Aurelli    home_planet = Aurellaas     home_system = Aurella   name_list = "ui_extra_hum2" }
+    dephaean    = { name = Dephaean     plural = Dephaeans  home_planet = Dephaeas      home_system = Depha     name_list = "ui_extra_hum2" }
+    charonne    = { name = Charonne     plural = Charonnes  home_planet = Charas        home_system = Charonna  name_list = "ui_extra_hum2" }
+    chalion     = { name = Chalion      plural = Chaliones  home_planet = Chalias       home_system = Chaliona  name_list = "ui_extra_hum2" }
+    paeral      = { name = Paeral       plural = Paerali    home_planet = Paeralas      home_system = Paera     name_list = "ui_extra_hum2" }
+    brellen     = { name = Brelle       plural = Brelles    home_planet = Brellas       home_system = Brella    name_list = "ui_extra_hum2" }
 }

@@ -9,6 +9,23 @@ HUM = {
     lyllithil   = { name = "Lyllithil"  plural = "Lyllithili"   home_planet = "Lyliisen"    home_system = "Tilwe"       name_list = "ui_elderscrolls_altmer" }
     noriaril    = { name = "Noriaril"   plural = "Noriarils"    home_planet = "Norrinorne"  home_system = "Noril"       name_list = "ui_elderscrolls_altmer" }
 
+    ### Elder Scrolls - Dremora ###
+    akatari = { name = "Akatari"    plural = "Akatari"  home_planet = "Akatas"      home_system = "Aka"     name_list = "ui_elderscrolls_dremora" }
+    anhae   = { name = "Anhae"      plural = "Anhaes"   home_planet = "Anhaes"      home_system = "Anha"    name_list = "ui_elderscrolls_dremora" }
+    kizkyn  = { name = "Kizkyn"     plural = "Kizkyns"  home_planet = "Kiz"         home_system = "Kiz"     name_list = "ui_elderscrolls_dremora" }
+    grexev  = { name = "Grexev"     plural = "Grexevs"  home_planet = "Grexes"      home_system = "Grex"    name_list = "ui_elderscrolls_dremora" }
+    ifriz   = { name = "Ifriz"      plural = "Ifrizi"   home_planet = "Ifriz"       home_system = "Ifri"    name_list = "ui_elderscrolls_dremora" }
+    migo    = { name = "Migo"       plural = "Migos"    home_planet = "Migos"       home_system = "Mig"     name_list = "ui_elderscrolls_dremora" }
+    ranyu   = { name = "Ranyu"      plural = "Ranyus"   home_planet = "Ranyus"      home_system = "Ran"     name_list = "ui_elderscrolls_dremora" }
+    vaekar  = { name = "Vaekar"     plural = "Vaekari"  home_planet = "Vaekaris"    home_system = "Vaek"    name_list = "ui_elderscrolls_dremora" }
+    velehk  = { name = "Velehk"     plural = "Velehki"  home_planet = "Velehka"     home_system = "Veleh"   name_list = "ui_elderscrolls_dremora" }
+    dekamma = { name = "Dekamma"    plural = "Dekammas" home_planet = "Dekammas"    home_system = "Deka"    name_list = "ui_elderscrolls_dremora" }
+    lyranth = { name = "Lyranth"    plural = "Lyranthi" home_planet = "Lyranthus"   home_system = "Lyra"    name_list = "ui_elderscrolls_dremora" }
+    rykuna  = { name = "Rykuna"     plural = "Rykunas"  home_planet = "Rykunas"     home_system = "Ryk"     name_list = "ui_elderscrolls_dremora" }
+    velark  = { name = "Velark"     plural = "Velarks"  home_planet = "Valarkus"    home_system = "Vela"    name_list = "ui_elderscrolls_dremora" }
+    dhrur   = { name = "Dhrur"      plural = "Dhruri"   home_planet = "Dhrurus"     home_system = "Dhru"    name_list = "ui_elderscrolls_dremora" }
+    volar   = { name = "Volar"      plural = "Volars"   home_planet = "Volars"      home_system = "Vola"    name_list = "ui_elderscrolls_dremora" }
+
     ### Elder Scrolls - Orc ###
     bargog  = { name = "Bargog"     plural = "Bargogs"  home_planet = "Bargog"  home_system = "Barg"    name_list = "ui_elderscrolls_orc" }
     brokmul = { name = "Brokmul"    plural = "Brokmuli" home_planet = "Brokmul" home_system = "Brok"    name_list = "ui_elderscrolls_orc" }

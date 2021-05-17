@@ -2,17 +2,17 @@
 
 # About
 
-Mod for Stellaris that adds hundreds of new species names into the game
+Mod for Stellaris that adds hundreds of new species names into the game.
 
 # Installation
 
-[![Get it from the Workshop](https://raw.githubusercontent.com/hmlendea/readme-assets/master/badges/stores/steam-workshop.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=2040234709)
+[![Get it from the Workshop](https://raw.githubusercontent.com/hmlendea/readme-assets/master/badges/stores/steam-workshop.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=2040234709) [![Get it from Paradox Mods](https://raw.githubusercontent.com/hmlendea/readme-assets/master/badges/stores/paradox-mods.png)](https://mods.paradoxplaza.com/mods/25437/Any) [![Get it from the Nexus](https://raw.githubusercontent.com/hmlendea/readme-assets/master/badges/stores/nexus.png)](https://www.nexusmods.com/stellaris/mods/77)
 
 ## Manual installation
 
  - Download the [latest release](https://github.com/hmlendea/stellaris-ui-species-names/releases/latest)
  - Extract the contents into your game's mod directory
- - Install [Universum Infinitum - Name Lists](https://github.com/hmlendea/stellaris-ui-name-lists) [i](required mod)[/i]
+ - Install [Universum Infinitum - Name Lists](https://github.com/hmlendea/stellaris-ui-name-lists) _(required mod)_
 
 # Compatibility
 
@@ -27,7 +27,7 @@ It should also be compatible with any other mods.
 You are welcome to bring any suggestion, feedback or modification to this project.
 
 Here are a few ways in which you can do so:
- - Commenting on the Steam Workshop page directly or in its Discussions threads
+ - Commenting directly on the Steam Workshop or Nexus pages
  - Raising a new [issue](https://github.com/hmlendea/stellaris-ui-species-names/issues) for this project
  - Creating a git pull request for this repository (This requires git knowledge)
 

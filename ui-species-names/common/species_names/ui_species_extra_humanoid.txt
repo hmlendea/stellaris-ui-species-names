@@ -32,4 +32,21 @@ HUM = {
     chalion     = { name = Chalion      plural = Chaliones  home_planet = Chalias       home_system = Chaliona  name_list = "ui_extra_hum2" }
     paeral      = { name = Paeral       plural = Paerali    home_planet = Paeralas      home_system = Paera     name_list = "ui_extra_hum2" }
     brellen     = { name = Brelle       plural = Brelles    home_planet = Brellas       home_system = Brella    name_list = "ui_extra_hum2" }
+
+    ### Orc ###
+    gnadug      = { name = Gnadug       plural = Gnadugs    home_planet = Olaghig       home_system = Golagh    name_list = "ui_orc" }
+    fidgug      = { name = Fidgug       plural = Fidgugs    home_planet = Karfu         home_system = Kar       name_list = "ui_orc" }
+    rodagog     = { name = Rodagog      plural = Rodagogs   home_planet = Rodaghig      home_system = Rod       name_list = "ui_orc" }
+    komarod     = { name = Komarod      plural = Komarods   home_planet = Karrghig      home_system = Karrgh    name_list = "ui_orc" }
+    shazgob     = { name = Shazgob      plural = Shazgobi   home_planet = Shaza         home_system = Shazgh    name_list = "ui_orc" }
+    lazgar      = { name = Lazgar       plural = Lazgari    home_planet = Lazga         home_system = Lazgh     name_list = "ui_orc" }
+    urzoth      = { name = Urzoth       plural = Urzothi    home_planet = Grazob        home_system = Uloth     name_list = "ui_orc" }
+    bashuk      = { name = Bashuk       plural = Bashuks    home_planet = Gluronk       home_system = Gharol    name_list = "ui_orc" }
+    rogmesh     = { name = Rogmesh      plural = Rogmeshi   home_planet = Durgat        home_system = Dura      name_list = "ui_orc" }
+    yazgash     = { name = Yazgash      plural = Yazgashi   home_planet = Shagar        home_system = Oghash    name_list = "ui_orc" }
+    ushug       = { name = Ushug        plural = Ushugs     home_planet = Agrob         home_system = Shel      name_list = "ui_orc" }
+    grazob      = { name = Grazob       plural = Grazobi    home_planet = Borba         home_system = Gonk      name_list = "ui_orc" }
+    murzush     = { name = Murzush      plural = Murzushi   home_planet = Pehrakgu      home_system = Mauhul    name_list = "ui_orc" }
+    cagan       = { name = Cagan        plural = Cagani     home_planet = Ogharod       home_system = Yukha     name_list = "ui_orc" }
+    yroh        = { name = Yroh         plural = Yrohi      home_planet = Dirkdarok     home_system = Trougha   name_list = "ui_orc" }
 }

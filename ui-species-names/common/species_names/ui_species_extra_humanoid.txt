@@ -1,35 +1,137 @@
 HUM = {
     ### Extra Humanoids 1 ###
-    astiron     = { name = Astiron  plural = Astirons   home_planet = Astinor       home_system = Asty      name_list = "ui_extra_hum1" }
-    boldir      = { name = Boldir   plural = Boldir     home_planet = Boldirag      home_system = Boldy     name_list = "ui_extra_hum1" }
-    closgor     = { name = Closgor  plural = Closgors   home_planet = Closgor       home_system = Closy     name_list = "ui_extra_hum1" }
-    felron      = { name = Felron   plural = Felrons    home_planet = Felron        home_system = Felron    name_list = "ui_extra_hum1" }
-    galomar     = { name = Galomar  plural = Galomars   home_planet = Galinor       home_system = Gal       name_list = "ui_extra_hum1" }
-    maltir      = { name = Maltir   plural = Maltirs    home_planet = Maltiron      home_system = Malty     name_list = "ui_extra_hum1" }
-    oloron      = { name = Oloron   plural = Olorons    home_planet = Oloremar      home_system = Olor      name_list = "ui_extra_hum1" }
-    plasigor    = { name = Plasigor plural = Plasigors  home_planet = Plasigoron    home_system = Plasy     name_list = "ui_extra_hum1" }
-    scalnur     = { name = Scalnur  plural = Scalnurs   home_planet = Scalinor      home_system = Scal      name_list = "ui_extra_hum1" }
-    sicrag      = { name = Sicrag   plural = Sicrags    home_planet = Sicrag        home_system = Sicry     name_list = "ui_extra_hum1" }
-    stentor     = { name = Stentor  plural = Stentors   home_planet = Stentor       home_system = Stentor   name_list = "ui_extra_hum1" }
-    usnotar     = { name = Usnotar  plural = Usnotars   home_planet = Usniron       home_system = Usny      name_list = "ui_extra_hum1" }
-    vegranir    = { name = Vegranir plural = Vegrans    home_planet = Vegranor      home_system = Vegry     name_list = "ui_extra_hum1" }
-    velmor      = { name = Velmor   plural = Velmori    home_planet = Velmoron      home_system = Velmy     name_list = "ui_extra_hum1" }
-    votrag      = { name = Votrag   plural = Votrag     home_planet = Votrag        home_system = Votrag    name_list = "ui_extra_hum1" }
+    astiron     = { name = Astiron      plural = Astirons       home_planet = Astinor       home_system = Asty          name_list = "ui_extra_hum1" }
+    boldir      = { name = Boldir       plural = Boldir         home_planet = Boldirag      home_system = Boldy         name_list = "ui_extra_hum1" }
+    closgor     = { name = Closgor      plural = Closgors       home_planet = Closgor       home_system = Closy         name_list = "ui_extra_hum1" }
+    felron      = { name = Felron       plural = Felrons        home_planet = Felron        home_system = Felron        name_list = "ui_extra_hum1" }
+    galomar     = { name = Galomar      plural = Galomars       home_planet = Galinor       home_system = Gal           name_list = "ui_extra_hum1" }
+    maltir      = { name = Maltir       plural = Maltirs        home_planet = Maltiron      home_system = Malty         name_list = "ui_extra_hum1" }
+    oloron      = { name = Oloron       plural = Olorons        home_planet = Oloremar      home_system = Olor          name_list = "ui_extra_hum1" }
+    plasigor    = { name = Plasigor     plural = Plasigors      home_planet = Plasigoron    home_system = Plasy         name_list = "ui_extra_hum1" }
+    scalnur     = { name = Scalnur      plural = Scalnurs       home_planet = Scalinor      home_system = Scal          name_list = "ui_extra_hum1" }
+    sicrag      = { name = Sicrag       plural = Sicrags        home_planet = Sicrag        home_system = Sicry         name_list = "ui_extra_hum1" }
+    stentor     = { name = Stentor      plural = Stentors       home_planet = Stentor       home_system = Stentor       name_list = "ui_extra_hum1" }
+    usnotar     = { name = Usnotar      plural = Usnotars       home_planet = Usniron       home_system = Usny          name_list = "ui_extra_hum1" }
+    vegranir    = { name = Vegranir     plural = Vegrans        home_planet = Vegranor      home_system = Vegry         name_list = "ui_extra_hum1" }
+    velmor      = { name = Velmor       plural = Velmori        home_planet = Velmoron      home_system = Velmy         name_list = "ui_extra_hum1" }
+    votrag      = { name = Votrag       plural = Votrag         home_planet = Votrag        home_system = Votrag        name_list = "ui_extra_hum1" }
 
     ### Extra Humanoids 2 ###
-    elandoran   = { name = Elandoran    plural = Elandorans home_planet = Elandoras     home_system = Elandor   name_list = "ui_extra_hum2" }
-    phyrran     = { name = Phyrran      plural = Phyrrans   home_planet = Phyrras       home_system = Phyrr     name_list = "ui_extra_hum2" }
-    heross      = { name = Heross       plural = Herossi    home_planet = Herossas      home_system = Heross    name_list = "ui_extra_hum2" }
-    aamel       = { name = Aamel        plural = Aamels     home_planet = Aamelas       home_system = Aam       name_list = "ui_extra_hum2" }
-    wallan      = { name = Wallan       plural = Wallans    home_planet = Wallas        home_system = Wallar    name_list = "ui_extra_hum2" }
-    kaeyan      = { name = Kaeyan       plural = Kaeyans    home_planet = Kaeyas        home_system = Kaey      name_list = "ui_extra_hum2" }
-    gwenne      = { name = Gwenne       plural = Gwennes    home_planet = Gwennas       home_system = Gwenna    name_list = "ui_extra_hum2" }
-    eradyl      = { name = Eradyl       plural = Eradyls    home_planet = Eradylas      home_system = Erad      name_list = "ui_extra_hum2" }
-    earwhal     = { name = Earwhal      plural = Earwhals   home_planet = Earwhalas     home_system = Earwha    name_list = "ui_extra_hum2" }
-    aurelle     = { name = Aurelle      plural = Aurelli    home_planet = Aurellaas     home_system = Aurella   name_list = "ui_extra_hum2" }
-    dephaean    = { name = Dephaean     plural = Dephaeans  home_planet = Dephaeas      home_system = Depha     name_list = "ui_extra_hum2" }
-    charonne    = { name = Charonne     plural = Charonnes  home_planet = Charas        home_system = Charonna  name_list = "ui_extra_hum2" }
-    chalion     = { name = Chalion      plural = Chaliones  home_planet = Chalias       home_system = Chaliona  name_list = "ui_extra_hum2" }
-    paeral      = { name = Paeral       plural = Paerali    home_planet = Paeralas      home_system = Paera     name_list = "ui_extra_hum2" }
-    brellen     = { name = Brelle       plural = Brelles    home_planet = Brellas       home_system = Brella    name_list = "ui_extra_hum2" }
+    elandoran   = { name = Elandoran    plural = Elandorans     home_planet = Elandoras     home_system = Elandor       name_list = "ui_extra_hum2" }
+    phyrran     = { name = Phyrran      plural = Phyrrans       home_planet = Phyrras       home_system = Phyrr         name_list = "ui_extra_hum2" }
+    heross      = { name = Heross       plural = Herossi        home_planet = Herossas      home_system = Heross        name_list = "ui_extra_hum2" }
+    aamel       = { name = Aamel        plural = Aamels         home_planet = Aamelas       home_system = Aam           name_list = "ui_extra_hum2" }
+    wallan      = { name = Wallan       plural = Wallans        home_planet = Wallas        home_system = Wallar        name_list = "ui_extra_hum2" }
+    kaeyan      = { name = Kaeyan       plural = Kaeyans        home_planet = Kaeyas        home_system = Kaey          name_list = "ui_extra_hum2" }
+    gwenne      = { name = Gwenne       plural = Gwennes        home_planet = Gwennas       home_system = Gwenna        name_list = "ui_extra_hum2" }
+    eradyl      = { name = Eradyl       plural = Eradyls        home_planet = Eradylas      home_system = Erad          name_list = "ui_extra_hum2" }
+    earwhal     = { name = Earwhal      plural = Earwhals       home_planet = Earwhalas     home_system = Earwha        name_list = "ui_extra_hum2" }
+    aurelle     = { name = Aurelle      plural = Aurelli        home_planet = Aurellaas     home_system = Aurella       name_list = "ui_extra_hum2" }
+    dephaean    = { name = Dephaean     plural = Dephaeans      home_planet = Dephaeas      home_system = Depha         name_list = "ui_extra_hum2" }
+    charonne    = { name = Charonne     plural = Charonnes      home_planet = Charas        home_system = Charonna      name_list = "ui_extra_hum2" }
+    chalion     = { name = Chalion      plural = Chaliones      home_planet = Chalias       home_system = Chaliona      name_list = "ui_extra_hum2" }
+    paeral      = { name = Paeral       plural = Paerali        home_planet = Paeralas      home_system = Paera         name_list = "ui_extra_hum2" }
+    brellen     = { name = Brelle       plural = Brelles        home_planet = Brellas       home_system = Brella        name_list = "ui_extra_hum2" }
+
+    ### Demon ###
+    korkan      = { name = Korkan       plural = Korkani        home_planet = Ogdrakuuth    home_system = Ogdra         name_list = "ui_demon" }
+    dongruz     = { name = Dongruz      plural = Dongruzi       home_planet = Trez'golluth  home_system = Treza         name_list = "ui_demon" }
+    brizzan     = { name = Brizzan      plural = Brizzani       home_planet = Ogmathok      home_system = Ogma          name_list = "ui_demon" }
+    olrith      = { name = Olrith       plural = Olrithi        home_planet = Tragmerag     home_system = Tragmera      name_list = "ui_demon" }
+    uldun       = { name = Uldun        plural = Ulduni         home_planet = Arzoniuch     home_system = Arzona        name_list = "ui_demon" }
+    ykal        = { name = Ykal         plural = Ykali          home_planet = Kazzazeth     home_system = Kazza         name_list = "ui_demon" }
+    vorkoth     = { name = Vorkoth      plural = Vorkothi       home_planet = Tholgodes     home_system = Thola         name_list = "ui_demon" }
+    trunnon     = { name = Trunnon      plural = Trunnoni       home_planet = Trugramaan    home_system = Trugrama      name_list = "ui_demon" }
+    jarik       = { name = Jar'ik       plural = Jar'iki        home_planet = Koglauth      home_system = Kogla         name_list = "ui_demon" }
+    alrinoth    = { name = Alrinoth     plural = Alrinothi      home_planet = Darnozuch     home_system = Darnoza       name_list = "ui_demon" }
+    sethtaxath  = { name = Seth'taxath  plural = Seth'taxathi   home_planet = Sagthanoz     home_system = Sagtha        name_list = "ui_demon" }
+    treggez     = { name = Treggez      plural = Treggezi       home_planet = Gaz'gidin     home_system = Gazda         name_list = "ui_demon" }
+    mugmag      = { name = Mugmag       plural = Mugmagi        home_planet = Egdrennik     home_system = Egdrena       name_list = "ui_demon" }
+    xagthoron   = { name = Xag'thoron   plural = Xag'thoroni    home_planet = Thostron      home_system = Thostra       name_list = "ui_demon" }
+    xazgoreg    = { name = Xaz'goreg    plural = Xaz'goregi     home_planet = Tungrameth    home_system = Tungra        name_list = "ui_demon" }
+
+    ### Dwarven ###
+    daredric    = { name = Daredric     plural = Daredri        home_planet = Torerdrael    home_system = Datdreck      name_list = "ui_dwarven" }
+    bhargac     = { name = Bhargac      plural = Bhargacs       home_planet = Yafrorlum     home_system = Orirsoc       name_list = "ui_dwarven" }
+    mathack     = { name = Mathack      plural = Mathacks       home_planet = Torethud      home_system = Khusen        name_list = "ui_dwarven" }
+    vaggoula    = { name = Vaggoula     plural = Vaggoulis      home_planet = Fovrohulda    home_system = Fobrada       name_list = "ui_dwarven" }
+    foken       = { name = Foken        plural = Fokeni         home_planet = Skorneatelin  home_system = Weratraserd   name_list = "ui_dwarven" }
+    lulgragar   = { name = Lulgragar    plural = Lulgragari     home_planet = Skongrida     home_system = Vavrouline    name_list = "ui_dwarven" }
+    embrek      = { name = Embrek       plural = Embreki        home_planet = Whukroubelyn  home_system = Ummir         name_list = "ui_dwarven" }
+    harkom      = { name = Harkom       plural = Harkomi        home_planet = Bhelkuhm      home_system = Malnus        name_list = "ui_dwarven" }
+    magnyl      = { name = Magnyl       plural = Magnyls        home_planet = Kharkohm      home_system = Morkuhm       name_list = "ui_dwarven" }
+    ebthran     = { name = Ebthran      plural = Ebthrans       home_planet = Kromdek       home_system = Brumkam       name_list = "ui_dwarven" }
+    baerrak     = { name = Baerrak      plural = Baerraki       home_planet = Therdren      home_system = Adgrun        name_list = "ui_dwarven" }
+    dwalin      = { name = Dwalin       plural = Dwalins        home_planet = Kherneam      home_system = Crannog       name_list = "ui_dwarven" }
+    bifurr      = { name = Bifurr       plural = Bifurri        home_planet = Bongivahr     home_system = Turred        name_list = "ui_dwarven" }
+    harrik      = { name = Harrik       plural = Harriks        home_planet = Gwendish      home_system = Rulum         name_list = "ui_dwarven" }
+    norin       = { name = Norin        plural = Norins         home_planet = Catgovan      home_system = Glaefderr     name_list = "ui_dwarven" }
+
+    ### Elven ###
+    lysanthir   = { name = Lysanthir    plural = Lysanthiri     home_planet = Elarieth      home_system = Elarya        name_list = "ui_elven" }
+    raibyn      = { name = Raibyn       plural = Raibyni        home_planet = Holatumal     home_system = Holya         name_list = "ui_elven" }
+    elred       = { name = Elred        plural = Elredi         home_planet = Ylladithas    home_system = Ylladya       name_list = "ui_elven" }
+    vulmon      = { name = Vulmon       plural = Vulmoni        home_planet = Keyven        home_system = Keya          name_list = "ui_elven" }
+    ehrendil    = { name = Ehrendil     plural = Ehrendils      home_planet = Yescyne       home_system = Yescya        name_list = "ui_elven" }
+    nieven      = { name = Nieven       plural = Nievens        home_planet = Erphyra       home_system = Erphya        name_list = "ui_elven" }
+    iliphar     = { name = Iliphar      plural = Iliphari       home_planet = Sylcaryn      home_system = Sylcarya      name_list = "ui_elven" }
+    neremyn     = { name = Neremyn      plural = Neremyni       home_planet = Balneiros     home_system = Balneya       name_list = "ui_elven" }
+    yalanue     = { name = Yalanue      plural = Yalanis        home_planet = Heleharice    home_system = Helehya       name_list = "ui_elven" }
+    ciradyl     = { name = Ciradyl      plural = Ciradyli       home_planet = Miaxisys      home_system = Miaxya        name_list = "ui_elven" }
+    siraye      = { name = Siraye       plural = Sirais         home_planet = Dorro         home_system = Dorya         name_list = "ui_elven" }
+    riniya      = { name = Riniya       plural = Rinis          home_planet = Petren        home_system = Petrya        name_list = "ui_elven" }
+    tanyth      = { name = Tanyth       plural = Tanythi        home_planet = Torceran      home_system = Torcya        name_list = "ui_elven" }
+    ellisar     = { name = Ellisar      plural = Ellisari       home_planet = Wysaroris     home_system = Wysarya       name_list = "ui_elven" }
+    isilynor    = { name = Isilynor     plural = Isilynori      home_planet = Ianmaris      home_system = Ianya         name_list = "ui_elven" }
+
+    ### Goblin ###
+    ierd        = { name = Ierd         plural = Ierdi          home_planet = Xonvurt       home_system = Xon           name_list = "ui_goblin" }
+    zugs        = { name = Zugs         plural = Zugs           home_planet = Karfu         home_system = Karf          name_list = "ui_goblin" }
+    glydaaz     = { name = Glydaaz      plural = Glydaazi       home_planet = Xagakz        home_system = Xag           name_list = "ui_goblin" }
+    bonyz       = { name = Bonyz        plural = Bonyzi         home_planet = Sluddeld      home_system = Sludd         name_list = "ui_goblin" }
+    thrangi     = { name = Thrangi      plural = Thrangi        home_planet = Laavnufs      home_system = Laav          name_list = "ui_goblin" }
+    vrex        = { name = Vrex         plural = Vrexi          home_planet = Doszith       home_system = Dosz          name_list = "ui_goblin" }
+    erkeeth     = { name = Erkeeth      plural = Erkeethi       home_planet = Brimoissai    home_system = Brimoi        name_list = "ui_goblin" }
+    noihxe      = { name = Noihxe       plural = Noihxes        home_planet = Shuhbuilda    home_system = Shuh          name_list = "ui_goblin" }
+    vuflaaft    = { name = Vuflaaft     plural = Vuflaafti      home_planet = Qofsiaq       home_system = Qofsa         name_list = "ui_goblin" }
+    aghyrx      = { name = Aghyrx       plural = Aghyrxi        home_planet = Aalorxea      home_system = Aalor         name_list = "ui_goblin" }
+    zuhort      = { name = Zuhort       plural = Zuhorts        home_planet = Kleediocs     home_system = Klee          name_list = "ui_goblin" }
+    vrokt       = { name = Vrokt        plural = Vrokts         home_planet = Dynrig        home_system = Dyn           name_list = "ui_goblin" }
+    zramex      = { name = Zramex       plural = Zramexi        home_planet = Proivink      home_system = Proiv         name_list = "ui_goblin" }
+    iolaalx     = { name = Iolaalx      plural = Iolaalxi       home_planet = Wrokt         home_system = Viage         name_list = "ui_goblin" }
+    deemzuit    = { name = Deemzuit     plural = Deemzuits      home_planet = Vriesb        home_system = Brax          name_list = "ui_goblin" }
+
+    ### Orc ###
+    gnadug      = { name = Gnadug       plural = Gnadugs        home_planet = Olaghig       home_system = Golagh        name_list = "ui_orc" }
+    fidgug      = { name = Fidgug       plural = Fidgugs        home_planet = Karfu         home_system = Kar           name_list = "ui_orc" }
+    rodagog     = { name = Rodagog      plural = Rodagogs       home_planet = Rodaghig      home_system = Rod           name_list = "ui_orc" }
+    komarod     = { name = Komarod      plural = Komarods       home_planet = Karrghig      home_system = Karrgh        name_list = "ui_orc" }
+    shazgob     = { name = Shazgob      plural = Shazgobi       home_planet = Shaza         home_system = Shazgh        name_list = "ui_orc" }
+    lazgar      = { name = Lazgar       plural = Lazgari        home_planet = Lazga         home_system = Lazgh         name_list = "ui_orc" }
+    urzoth      = { name = Urzoth       plural = Urzothi        home_planet = Grazob        home_system = Uloth         name_list = "ui_orc" }
+    bashuk      = { name = Bashuk       plural = Bashuks        home_planet = Gluronk       home_system = Gharol        name_list = "ui_orc" }
+    rogmesh     = { name = Rogmesh      plural = Rogmeshi       home_planet = Durgat        home_system = Dura          name_list = "ui_orc" }
+    yazgash     = { name = Yazgash      plural = Yazgashi       home_planet = Shagar        home_system = Oghash        name_list = "ui_orc" }
+    ushug       = { name = Ushug        plural = Ushugs         home_planet = Agrob         home_system = Shel          name_list = "ui_orc" }
+    grazob      = { name = Grazob       plural = Grazobi        home_planet = Borba         home_system = Gonk          name_list = "ui_orc" }
+    murzush     = { name = Murzush      plural = Murzushi       home_planet = Pehrakgu      home_system = Mauhul        name_list = "ui_orc" }
+    cagan       = { name = Cagan        plural = Cagani         home_planet = Ogharod       home_system = Yukha         name_list = "ui_orc" }
+    yroh        = { name = Yroh         plural = Yrohi          home_planet = Dirkdarok     home_system = Trougha       name_list = "ui_orc" }
+
+    ### Protoss ###
+    fyrae       = { name = Fyrae        plural = Fyrae          home_planet = Fyra          home_system = Fyr           name_list = "ui_protoss" }
+    xerken      = { name = Xerken       plural = Xerkeni        home_planet = Xerka         home_system = Xer           name_list = "ui_protoss" }
+    odatar      = { name = Odatar       plural = Odatari        home_planet = Azrunath      home_system = Xumoth        name_list = "ui_protoss" }
+    arildyl     = { name = Arildyl      plural = Arildyli       home_planet = Arilda        home_system = Aril          name_list = "ui_protoss" }
+    tildral     = { name = Tildral      plural = Tildrali       home_planet = Ilanu         home_system = Arzi          name_list = "ui_protoss" }
+    endreris    = { name = Endreris     plural = Endreris       home_planet = Ugdeadal      home_system = Yllary        name_list = "ui_protoss" }
+    irysro      = { name = Irysro       plural = Irysri         home_planet = Nyxia         home_system = Tyte          name_list = "ui_protoss" }
+    yndys       = { name = Yndys        plural = Yndysi         home_planet = Odengun       home_system = Nyllol        name_list = "ui_protoss" }
+    ulnyro      = { name = Ulnyro       plural = Unlyri         home_planet = Dildral       home_system = Ghur          name_list = "ui_protoss" }
+    khex        = { name = Khez         plural = Khexi          home_planet = Farxech       home_system = Utgutyr       name_list = "ui_protoss" }
+    nindril     = { name = Nindril      plural = Nindrils       home_planet = Yndotiar      home_system = Oreton        name_list = "ui_protoss" }
+    atyr        = { name = Atyr         plural = Atyri          home_planet = Fondrul       home_system = Monix         name_list = "ui_protoss" }
+    dhudrix     = { name = Dhudrix      plural = Dhudri         home_planet = Adriodas      home_system = Amiarkon      name_list = "ui_protoss" }
+    yrkagel     = { name = Yrkagel      plural = Yrkagels       home_planet = Zoria         home_system = Fuxys         name_list = "ui_protoss" }
+    ituta       = { name = Ituta        plural = Ituti          home_planet = Iszydon       home_system = Utylga        name_list = "ui_protoss" }
 }

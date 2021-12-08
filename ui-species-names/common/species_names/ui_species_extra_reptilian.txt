@@ -49,4 +49,21 @@ REP = {
     trazisk     = { name = Trazisk      plural = Trazi          home_planet = Traziss       home_system = Traz      name_list = "ui_extra_rep3" }
     truurnax    = { name = Truurnax     plural = Truurnai       home_planet = Truurnass     home_system = Truu      name_list = "ui_extra_rep3" }
     zottiqu     = { name = Zottiqu      plural = Zotti          home_planet = Zottiss       home_system = Zott      name_list = "ui_extra_rep3" }
+
+    ### Lizard ###
+    broxl       = { name = Broxl        plural = Broxlis        home_planet = Thashk        home_system = Thash     name_list = "ui_lizard" }
+    rhuxl       = { name = Rhuxl        plural = Rhuxlis        home_planet = Draoshosk     home_system = Draosh    name_list = "ui_lizard" }
+    ukuz        = { name = Ukuz         plural = Ukuzi          home_planet = Razouzk       home_system = Razosh    name_list = "ui_lizard" }
+    trik        = { name = Trik         plural = Triks          home_planet = Chukujizk     home_system = Chukush   name_list = "ui_lizard" }
+    qisz        = { name = Qisz         plural = Qiszis         home_planet = Grouxugraxl   home_system = Groush    name_list = "ui_lizard" }
+    drisk       = { name = Drisk        plural = Driskis        home_planet = Draoltiqax    home_system = Draosh    name_list = "ui_lizard" }
+    kirqaz      = { name = Kirqaz       plural = Kirqazi        home_planet = Ashraucisz    home_system = Ash       name_list = "ui_lizard" }
+    zex         = { name = Zex          plural = Zexi           home_planet = Drutzaosz     home_system = Drutosh   name_list = "ui_lizard" }
+    thaz        = { name = Thaz         plural = Thazi          home_planet = Zuxiusz       home_system = Zuxiush   name_list = "ui_lizard" }
+    srotha      = { name = Srotha       plural = Srothi         home_planet = Joazitrak     home_system = Joash     name_list = "ui_lizard" }
+    juthri      = { name = Juthri       plural = Juthri         home_planet = Brukaxo       home_system = Brukash   name_list = "ui_lizard" }
+    dhez        = { name = Dhez         plural = Dhezi          home_planet = Ontiugisz     home_system = Ontish    name_list = "ui_lizard" }
+    qeikro      = { name = Qeikro       plural = Qeikri         home_planet = Bhihojisk     home_system = Bhish     name_list = "ui_lizard" }
+    uttisae     = { name = Uttisae      plural = Uttisae        home_planet = Aekarziz      home_system = Aekash    name_list = "ui_lizard" }
+    krex        = { name = Krex         plural = Krexi          home_planet = Bitikuxl      home_system = Bitish    name_list = "ui_lizard" }
 }

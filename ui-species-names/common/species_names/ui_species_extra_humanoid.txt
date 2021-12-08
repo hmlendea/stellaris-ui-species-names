@@ -50,6 +50,23 @@ HUM = {
     xagthoron   = { name = Xag'thoron   plural = Xag'thoroni    home_planet = Thostron      home_system = Thostra   name_list = "ui_demon" }
     xazgoreg    = { name = Xaz'goreg    plural = Xaz'goregi     home_planet = Tungrameth    home_system = Tungra    name_list = "ui_demon" }
 
+    ### Elven ###
+    lysanthir   = { name = Lysanthir    plural = Lysanthiri     home_planet = Elarieth      home_system = Elarya    name_list = "ui_elven" }
+    raibyn      = { name = Raibyn       plural = Raibyni        home_planet = Holatumal     home_system = Holya     name_list = "ui_elven" }
+    elred       = { name = Elred        plural = Elredi         home_planet = Ylladithas    home_system = Ylladya   name_list = "ui_elven" }
+    vulmon      = { name = Vulmon       plural = Vulmoni        home_planet = Keyven        home_system = Keya      name_list = "ui_elven" }
+    ehrendil    = { name = Ehrendil     plural = Ehrendils      home_planet = Yescyne       home_system = Yescya    name_list = "ui_elven" }
+    nieven      = { name = Nieven       plural = Nievens        home_planet = Erphyra       home_system = Erphya    name_list = "ui_elven" }
+    iliphar     = { name = Iliphar      plural = Iliphari       home_planet = Sylcaryn      home_system = Sylcarya  name_list = "ui_elven" }
+    neremyn     = { name = Neremyn      plural = Neremyni       home_planet = Balneiros     home_system = Balneya   name_list = "ui_elven" }
+    yalanue     = { name = Yalanue      plural = Yalanis        home_planet = Heleharice    home_system = Helehya   name_list = "ui_elven" }
+    ciradyl     = { name = Ciradyl      plural = Ciradyli       home_planet = Miaxisys      home_system = Miaxya    name_list = "ui_elven" }
+    siraye      = { name = Siraye       plural = Sirais         home_planet = Dorro         home_system = Dorya     name_list = "ui_elven" }
+    riniya      = { name = Riniya       plural = Rinis          home_planet = Petren        home_system = Petrya    name_list = "ui_elven" }
+    tanyth      = { name = Tanyth       plural = Tanythi        home_planet = Torceran      home_system = Torcya    name_list = "ui_elven" }
+    ellisar     = { name = Ellisar      plural = Ellisari       home_planet = Wysaroris     home_system = Wysarya   name_list = "ui_elven" }
+    isilynor    = { name = Isilynor     plural = Isilynori      home_planet = Ianmaris      home_system = Ianya     name_list = "ui_elven" }
+
     ### Goblin ###
     ierd        = { name = Ierd         plural = Ierdi          home_planet = Xonvurt       home_system = Xon       name_list = "ui_goblin" }
     zugs        = { name = Zugs         plural = Zugs           home_planet = Karfu         home_system = Karf      name_list = "ui_goblin" }

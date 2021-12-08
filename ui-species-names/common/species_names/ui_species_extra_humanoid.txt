@@ -33,6 +33,23 @@ HUM = {
     paeral      = { name = Paeral       plural = Paerali    home_planet = Paeralas      home_system = Paera     name_list = "ui_extra_hum2" }
     brellen     = { name = Brelle       plural = Brelles    home_planet = Brellas       home_system = Brella    name_list = "ui_extra_hum2" }
 
+    ### Goblin ###
+    ierd        = { name = Ierd         plural = Ierdi      home_planet = Xonvurt       home_system = Xon       name_list = "ui_goblin" }
+    zugs        = { name = Zugs         plural = Zugs       home_planet = Karfu         home_system = Karf      name_list = "ui_goblin" }
+    glydaaz     = { name = Glydaaz      plural = Glydaazi   home_planet = Xagakz        home_system = Xag       name_list = "ui_goblin" }
+    bonyz       = { name = Bonyz        plural = Bonyzi     home_planet = Sluddeld      home_system = Sludd     name_list = "ui_goblin" }
+    thrangi     = { name = Thrangi      plural = Thrangi    home_planet = Laavnufs      home_system = Laav      name_list = "ui_goblin" }
+    vrex        = { name = Vrex         plural = Vrexi      home_planet = Doszith       home_system = Dosz      name_list = "ui_goblin" }
+    erkeeth     = { name = Erkeeth      plural = Erkeethi   home_planet = Brimoissai    home_system = Brimoi    name_list = "ui_goblin" }
+    noihxe      = { name = Noihxe       plural = Noihxes    home_planet = Shuhbuilda    home_system = Shuh      name_list = "ui_goblin" }
+    vuflaaft    = { name = Vuflaaft     plural = Vuflaafti  home_planet = Qofsiaq       home_system = Qofsa     name_list = "ui_goblin" }
+    aghyrx      = { name = Aghyrx       plural = Aghyrxi    home_planet = Aalorxea      home_system = Aalor     name_list = "ui_goblin" }
+    zuhort      = { name = Zuhort       plural = Zuhorts    home_planet = Kleediocs     home_system = Klee      name_list = "ui_goblin" }
+    vrokt       = { name = Vrokt        plural = Vrokts     home_planet = Dynrig        home_system = Dyn       name_list = "ui_goblin" }
+    zramex      = { name = Zramex       plural = Zramexi    home_planet = Proivink      home_system = Proiv     name_list = "ui_goblin" }
+    iolaalx     = { name = Iolaalx      plural = Iolaalxi   home_planet = Wrokt         home_system = Viage     name_list = "ui_goblin" }
+    deemzuit    = { name = Deemzuit     plural = Deemzuits  home_planet = Vriesb        home_system = Brax      name_list = "ui_goblin" }
+
     ### Orc ###
     gnadug      = { name = Gnadug       plural = Gnadugs    home_planet = Olaghig       home_system = Golagh    name_list = "ui_orc" }
     fidgug      = { name = Fidgug       plural = Fidgugs    home_planet = Karfu         home_system = Kar       name_list = "ui_orc" }

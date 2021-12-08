@@ -117,4 +117,21 @@ HUM = {
     murzush     = { name = Murzush      plural = Murzushi       home_planet = Pehrakgu      home_system = Mauhul        name_list = "ui_orc" }
     cagan       = { name = Cagan        plural = Cagani         home_planet = Ogharod       home_system = Yukha         name_list = "ui_orc" }
     yroh        = { name = Yroh         plural = Yrohi          home_planet = Dirkdarok     home_system = Trougha       name_list = "ui_orc" }
+
+    ### Protoss ###
+    fyrae       = { name = Fyrae        plural = Fyrae          home_planet = Fyra          home_system = Fyr           name_list = "ui_protoss" }
+    xerken      = { name = Xerken       plural = Xerkeni        home_planet = Xerka         home_system = Xer           name_list = "ui_protoss" }
+    odatar      = { name = Odatar       plural = Odatari        home_planet = Azrunath      home_system = Xumoth        name_list = "ui_protoss" }
+    arildyl     = { name = Arildyl      plural = Arildyli       home_planet = Arilda        home_system = Aril          name_list = "ui_protoss" }
+    tildral     = { name = Tildral      plural = Tildrali       home_planet = Ilanu         home_system = Arzi          name_list = "ui_protoss" }
+    endreris    = { name = Endreris     plural = Endreris       home_planet = Ugdeadal      home_system = Yllary        name_list = "ui_protoss" }
+    irysro      = { name = Irysro       plural = Irysri         home_planet = Nyxia         home_system = Tyte          name_list = "ui_protoss" }
+    yndys       = { name = Yndys        plural = Yndysi         home_planet = Odengun       home_system = Nyllol        name_list = "ui_protoss" }
+    ulnyro      = { name = Ulnyro       plural = Unlyri         home_planet = Dildral       home_system = Ghur          name_list = "ui_protoss" }
+    khex        = { name = Khez         plural = Khexi          home_planet = Farxech       home_system = Utgutyr       name_list = "ui_protoss" }
+    nindril     = { name = Nindril      plural = Nindrils       home_planet = Yndotiar      home_system = Oreton        name_list = "ui_protoss" }
+    atyr        = { name = Atyr         plural = Atyri          home_planet = Fondrul       home_system = Monix         name_list = "ui_protoss" }
+    dhudrix     = { name = Dhudrix      plural = Dhudri         home_planet = Adriodas      home_system = Amiarkon      name_list = "ui_protoss" }
+    yrkagel     = { name = Yrkagel      plural = Yrkagels       home_planet = Zoria         home_system = Fuxys         name_list = "ui_protoss" }
+    ituta       = { name = Ituta        plural = Ituti          home_planet = Iszydon       home_system = Utylga        name_list = "ui_protoss" }
 }

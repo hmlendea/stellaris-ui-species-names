@@ -1,19 +1,19 @@
 MACHINE = {
     ### GalCiv - Yor ###
-    api     = { name = Api      plural = Apis       home_planet = "HOM" home_system = "STAR-1"    name_list = "ui_galciv_yor" }
-    codec   = { name = Codec    plural = Codecs     home_planet = "HOM" home_system = "STAR-1"    name_list = "ui_galciv_yor" }
-    dev     = { name = Dev      plural = Devs       home_planet = "HOM" home_system = "STAR-1"    name_list = "ui_galciv_yor" }
-    distro  = { name = Distro   plural = Distros    home_planet = "HOM" home_system = "STAR-1"    name_list = "ui_galciv_yor" }
-    foss    = { name = Foss     plural = Fosses     home_planet = "HOM" home_system = "STAR-1"    name_list = "ui_galciv_yor" }
-    hexal   = { name = Hexal    plural = Hexals     home_planet = "HOM" home_system = "STAR-1"    name_list = "ui_galciv_yor" }
-    octal   = { name = Octal    plural = Octals     home_planet = "HOM" home_system = "STAR-1"    name_list = "ui_galciv_yor" }
-    omega   = { name = Omega    plural = Omegas     home_planet = "HOM" home_system = "STAR-1"    name_list = "ui_galciv_yor" }
-    omni    = { name = Omni     plural = Omnis      home_planet = "HOM" home_system = "STAR-1"    name_list = "ui_galciv_yor" }
-    optix   = { name = Optix    plural = Optix      home_planet = "HOM" home_system = "STAR-1"    name_list = "ui_galciv_yor" }
-    quad    = { name = Quad     plural = Quads      home_planet = "HOM" home_system = "STAR-1"    name_list = "ui_galciv_yor" }
-    semver  = { name = Semver   plural = Semvers    home_planet = "HOM" home_system = "STAR-1"    name_list = "ui_galciv_yor" }
-    tec     = { name = Tec      plural = Tecs       home_planet = "HOM" home_system = "STAR-1"    name_list = "ui_galciv_yor" }
-    voxel   = { name = Voxel    plural = Voxels     home_planet = "HOM" home_system = "STAR-1"    name_list = "ui_galciv_yor" }
-    zash    = { name = Zash     plural = Zashes     home_planet = "HOM" home_system = "STAR-1"    name_list = "ui_galciv_yor" }
-    zen     = { name = Zen      plural = Zen        home_planet = "HOM" home_system = "STAR-1"    name_list = "ui_galciv_yor" }
+    api     = { name = Api      plural = Apis       home_planet = "HOM" home_system = "API-1"   name_list = "ui_galciv_yor" }
+    codec   = { name = Codec    plural = Codecs     home_planet = "HOM" home_system = "COD-1"   name_list = "ui_galciv_yor" }
+    dev     = { name = Dev      plural = Devs       home_planet = "HOM" home_system = "DEV-1"   name_list = "ui_galciv_yor" }
+    distro  = { name = Distro   plural = Distros    home_planet = "HOM" home_system = "DIS-1"   name_list = "ui_galciv_yor" }
+    foss    = { name = Foss     plural = Fosses     home_planet = "HOM" home_system = "FOS-1"   name_list = "ui_galciv_yor" }
+    hexal   = { name = Hexal    plural = Hexals     home_planet = "HOM" home_system = "HEX-1"   name_list = "ui_galciv_yor" }
+    octal   = { name = Octal    plural = Octals     home_planet = "HOM" home_system = "OCT-1"   name_list = "ui_galciv_yor" }
+    omega   = { name = Omega    plural = Omegas     home_planet = "HOM" home_system = "OMG-1"   name_list = "ui_galciv_yor" }
+    omni    = { name = Omni     plural = Omnis      home_planet = "HOM" home_system = "OMN-1"   name_list = "ui_galciv_yor" }
+    optix   = { name = Optix    plural = Optix      home_planet = "HOM" home_system = "OPT-1"   name_list = "ui_galciv_yor" }
+    quad    = { name = Quad     plural = Quads      home_planet = "HOM" home_system = "QUD-1"   name_list = "ui_galciv_yor" }
+    semver  = { name = Semver   plural = Semvers    home_planet = "HOM" home_system = "SVR-1"   name_list = "ui_galciv_yor" }
+    tec     = { name = Tec      plural = Tecs       home_planet = "HOM" home_system = "TEC-1"   name_list = "ui_galciv_yor" }
+    voxel   = { name = Voxel    plural = Voxels     home_planet = "HOM" home_system = "VOX-1"   name_list = "ui_galciv_yor" }
+    zash    = { name = Zash     plural = Zashes     home_planet = "HOM" home_system = "ZSH-1"   name_list = "ui_galciv_yor" }
+    zen     = { name = Zen      plural = Zen        home_planet = "HOM" home_system = "ZEN-1"   name_list = "ui_galciv_yor" }
 }

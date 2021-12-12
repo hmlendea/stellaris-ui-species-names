@@ -33,6 +33,40 @@ HUM = {
     paeral      = { name = Paeral       plural = Paerali        home_planet = Paeralas      home_system = Paera         name_list = "ui_extra_hum2" }
     brellen     = { name = Brelle       plural = Brelles        home_planet = Brellas       home_system = Brella        name_list = "ui_extra_hum2" }
 
+    ### Extra Humanoids 3 ###
+    rasaar      = { name = Ra'saar      plural = Ra'saari       home_planet = Rijlar        home_system = S'Ravius      name_list = "ui_extra_hum3" }
+    ziakan      = { name = Ziakan       plural = Ziakans        home_planet = Aytürkân      home_system = Özan-dar      name_list = "ui_extra_hum3" }
+    drotash     = { name = Dro'Tash     plural = Dro'Tashi      home_planet = Dro'Tash-ri   home_system = Kanazad-do    name_list = "ui_extra_hum3" }
+    misashar    = { name = Misashar     plural = Misashari      home_planet = Misashar-ri   home_system = Írynth        name_list = "ui_extra_hum3" }
+    jrassa      = { name = J'rassa      plural = J'rassians     home_planet = J'Haban       home_system = Gürkdoga      name_list = "ui_extra_hum3" }
+    rananç      = { name = Rananç       plural = Ranançians     home_planet = Qa'Datos      home_system = Ra'Zaadha     name_list = "ui_extra_hum3" }
+    goksu       = { name = Göksu        plural = Göksians       home_planet = Azarim        home_system = Jheriwa       name_list = "ui_extra_hum3" }
+    sertac      = { name = Sertaç       plural = Sertaçians     home_planet = Hanillaz      home_system = Yordal        name_list = "ui_extra_hum3" }
+    qadar       = { name = Qa'Dar       plural = Qa'Dari        home_planet = Özkaynan      home_system = Çetin         name_list = "ui_extra_hum3" }
+    caban       = { name = Çaban        plural = Çabanians      home_planet = Çabashargo    home_system = Çabanal       name_list = "ui_extra_hum3" }
+    gurkiye     = { name = Gürkiye      plural = Gürkians       home_planet = Hilag-daray   home_system = Gerçel        name_list = "ui_extra_hum3" }
+    sumen       = { name = Sümen        plural = Sümen          home_planet = Özakar        home_system = Çetinç        name_list = "ui_extra_hum3" }
+    skinian     = { name = S'kinan      plural = S'kinans       home_planet = Ra'Zaya       home_system = S'Rada        name_list = "ui_extra_hum3" }
+    akburcin    = { name = Akburçin     plural = Akburçians     home_planet = Baykal        home_system = Bahakan       name_list = "ui_extra_hum3" }
+    yanarr      = { name = Yanarr       plural = Yanarri        home_planet = Dalageyik     home_system = Konsu         name_list = "ui_extra_hum3" }
+
+    ### Extra Humanoids 4 ###
+    trantor     = { name = Trantor      plural = Trantorians    home_planet = Trantobe      home_system = Tranth        name_list = "ui_extra_hum4" }
+    velar       = { name = Velar        plural = Velari         home_planet = Velond        home_system = Velah         name_list = "ui_extra_hum4" }
+    cuthat      = { name = Cúthat       plural = Cúthati        home_planet = Clestor       home_system = Costaff       name_list = "ui_extra_hum4" }
+    basatie     = { name = Basatië      plural = Basatii        home_planet = Íristone      home_system = Írynth        name_list = "ui_extra_hum4" }
+    edhell      = { name = Eðell        plural = Eðellians      home_planet = Eðellos       home_system = Eðanis        name_list = "ui_extra_hum4" }
+    crinke      = { name = Crinkë       plural = Crinkëns       home_planet = Anairë        home_system = Anis          name_list = "ui_extra_hum4" }
+    naszar      = { name = Naszar       plural = Naszars        home_planet = Fëanoss       home_system = Fëah          name_list = "ui_extra_hum4" }
+    kidon       = { name = Kidon        plural = Kidoni         home_planet = Zeratarissë   home_system = Zerath        name_list = "ui_extra_hum4" }
+    vekano      = { name = Vekáno       plural = Vekános        home_planet = Syndrea       home_system = Syntaff       name_list = "ui_extra_hum4" }
+    vester      = { name = Vester       plural = Vesters        home_planet = Xerata        home_system = Xerath        name_list = "ui_extra_hum4" }
+    adamar      = { name = Adamar       plural = Adamarians     home_planet = Adamatië      home_system = Adamath       name_list = "ui_extra_hum4" }
+    karax       = { name = Karax        plural = Karaxians      home_planet = Zamatix       home_system = Zamix         name_list = "ui_extra_hum4" }
+    turuk       = { name = Turuk        plural = Turuks         home_planet = Kehdana       home_system = Koros         name_list = "ui_extra_hum4" }
+    atalian     = { name = Atalian      plural = Atalians       home_planet = Atalinkë      home_system = Ataff         name_list = "ui_extra_hum4" }
+    xanth       = { name = Xanth        plural = Xanthi         home_planet = Xanoss        home_system = Xanth         name_list = "ui_extra_hum4" }
+
     ### Demon ###
     korkan      = { name = Korkan       plural = Korkani        home_planet = Ogdrakuuth    home_system = Ogdra         name_list = "ui_demon" }
     dongruz     = { name = Dongruz      plural = Dongruzi       home_planet = Trez'golluth  home_system = Treza         name_list = "ui_demon" }

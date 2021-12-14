@@ -15,4 +15,21 @@ PLANT = {
     verella     = { name = Verella      plural = Verelli        home_planet = Verellia          home_system = Verell    name_list = "ui_extra_pla1" }
     viaxila     = { name = Viaxila      plural = Viaxis         home_planet = Viaxila           home_system = Viax      name_list = "ui_extra_pla1" }
     ziaproeta   = { name = Ziaproeta    plural = Ziaproets      home_planet = Ziaproetia        home_system = Ziapra    name_list = "ui_extra_pla1" }
+
+    ### Extra Plantoids 2 ###
+    balbior     = { name = Bãlbior      plural = Bãlbiori       home_planet = Sânlean           home_system = Sânzi     name_list = "ui_extra_pla2" }
+    canta       = { name = Cantã        plural = Cantãi         home_planet = Sãlãteni          home_system = Dracsa    name_list = "ui_extra_pla2" }
+    corita      = { name = Coritã       plural = Coritãi        home_planet = Tãtarnitã         home_system = Cicoasã   name_list = "ui_extra_pla2" }
+    dentina     = { name = Dentinã      plural = Dentinãi       home_planet = Târâta            home_system = Clãnicea  name_list = "ui_extra_pla2" }
+    ferigar     = { name = Ferigar      plural = Ferigari       home_planet = Inãrel            home_system = Cãlugã    name_list = "ui_extra_pla2" }
+    galatig     = { name = Gãlãtig      plural = Gãlãtigi       home_planet = Bãileni           home_system = Grivina   name_list = "ui_extra_pla2" }
+    galbior     = { name = Gãlbior      plural = Gãlbiori       home_planet = Cârloi            home_system = Bârzei    name_list = "ui_extra_pla2" }
+    iperiga     = { name = Iperigã      plural = Iperigãi       home_planet = Frãsinei          home_system = Tãtãnea   name_list = "ui_extra_pla2" }
+    marita      = { name = Mãritã       plural = Mãritãi        home_planet = Zglãvoacãt        home_system = Rechilã   name_list = "ui_extra_pla2" }
+    sagea       = { name = Sãgea        plural = Sãgeas         home_planet = Stãuceava         home_system = Fãlciug   name_list = "ui_extra_pla2" }
+    soara       = { name = Soarã        plural = Soarãi         home_planet = Pãstrunghilã      home_system = Capîntor  name_list = "ui_extra_pla2" }
+    strelita    = { name = Strelitã     plural = Strelitãi      home_planet = Nãpârcaci         home_system = Albã      name_list = "ui_extra_pla2" }
+    tamai       = { name = Tãmâi        plural = Tãmâii         home_planet = Cojgãreni         home_system = Blãjena   name_list = "ui_extra_pla2" }
+    tamarina    = { name = Tamarinã     plural = Tamarinãi      home_planet = Mãcãlean          home_system = Gârlie    name_list = "ui_extra_pla2" }
+    zarza       = { name = Zarzã        plural = Zarzãi         home_planet = Lãcris            home_system = Amãrea    name_list = "ui_extra_pla2" }
 }

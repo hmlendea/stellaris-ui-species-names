@@ -17,16 +17,13 @@ jobs:
       run: wget "https://github.com/hmlendea/stellaris-ui-species-names/releases/download/${{github.ref_name}}/ui-species-names_${GITHUB_REF:11}.zip" -O "release.zip"
 
     - name: Upload
-      uses: greatness7/nexusmods_file_updater@v2
+      uses: hmlendea/nexusmods-update@v1.0.0
       with:
-        username: ${{secrets.NEXUS_UPLOADER_USERNAME}}
-        password: ${{secrets.NEXUS_UPLOADER_PASSWORD}}
-        game_domain_name: "stellaris"
-        mod_id: "77"
-        file_name: "ui-species-names"
-        file_version: ${{github.ref_name}}
-        update_version: true
-        new_existing_version: true
-        original_file: "ui-species-names.*"
+        account_email_address: ${{secrets.NEXUS_UPLOADER_USERNAME}}
+        account_password: ${{secrets.NEXUS_UPLOADER_PASSWORD}}
+        nexus_game_id: "stellaris"
+        nexus_mod_id: "77"
+        mod_file_name: "ui-species-names"
+        mod_version: ${{github.ref_name}}
         file_description: "Changelog: https://github.com/hmlendea/stellaris-ui-species-names/releases/${{github.ref_name}}"
         file_path: "release.zip"

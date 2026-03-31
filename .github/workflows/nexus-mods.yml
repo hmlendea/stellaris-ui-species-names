@@ -4,11 +4,19 @@ on:
   push:
     tags:
     - 'v*.*.*'
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Tag to release'
+        required: true
 
 jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
+
+    env:
+      VERSION: ${{ inputs.tag || github.ref_name }}
 
     steps:
     - uses: actions/checkout@v1

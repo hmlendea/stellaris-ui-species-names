@@ -30,7 +30,7 @@ jobs:
       uses: Nexus-Mods/upload-action@v1.0.0-beta.3
       with:
         api_key: ${{ secrets.NEXUSMODS_API_KEY }}
-        file_group_id: 920143
+        file_group_id: 922891
         filename: release.zip
         display_name: ui-species-names.zip
         version: ${{github.ref_name}}

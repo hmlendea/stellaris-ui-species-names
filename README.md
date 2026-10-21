@@ -22,6 +22,14 @@ It is actively tested (and developed) on **Linux**, where it is guaranteed to wo
 
 It should also be compatible with any other mods.
 
+## 🛡️ Privacy and Data
+
+Universum Infinitum: Species Names does not collect or transmit personal data.
+
+For the detailed description of how the application handles privacy and personal data, see [PRIVACY.md](./PRIVACY.md).
+
+The mod consists of static species-name text files and descriptor metadata. It includes no executable code, telemetry, analytics, or diagnostics. Stellaris and distribution platforms are separate services and may process data under their own policies.
+
 # Contributions
 
 You are welcome to bring any suggestion, feedback or modification to this project.

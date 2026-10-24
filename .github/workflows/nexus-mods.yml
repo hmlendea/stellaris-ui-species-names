@@ -27,11 +27,14 @@ jobs:
         wget "https://github.com/hmlendea/stellaris-ui-species-names/releases/download/${VERSION}/${RELEASE_ASSET_NAME}" -O "release.zip"
 
     - name: Upload
-      uses: Nexus-Mods/upload-action@v1.0.0-beta.3
+      uses: Nexus-Mods/upload-action@v1.0.0-beta.10
       with:
         api_key: ${{ secrets.NEXUSMODS_API_KEY }}
-        file_group_id: 922891
+        file_id: 922891
         filename: release.zip
         display_name: ui-species-names.zip
-        version: ${{github.ref_name}}
-        file_category: main
+        version: ${{env.VERSION}}
+        description: "Changelog: https://github.com/hmlendea/stellaris-ui-species-names/releases/${{env.VERSION}}"
+        category: main
+        archive_existing_version: true
+        update_mod_version: true

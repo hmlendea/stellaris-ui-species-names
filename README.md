@@ -30,14 +30,17 @@ For the detailed description of how the application handles privacy and personal
 
 The mod consists of static species-name text files and descriptor metadata. It includes no executable code, telemetry, analytics, or diagnostics. Stellaris and distribution platforms are separate services and may process data under their own policies.
 
-# Contributions
+## 🤝 Contributing
 
-You are welcome to bring any suggestion, feedback or modification to this project.
+You are welcome to submit any suggestion, feedback, or modification to this project.
 
-Here are a few ways in which you can do so:
- - Commenting directly on the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2040234709) or [Nexus](https://nexusmods.com/stellaris/mods/77) pages
- - Raising a new [issue](https://github.com/hmlendea/stellaris-ui-species-names/issues) for this project
- - Creating a git pull request _(This requires git knowledge)_
+When doing so, please:
+- Maintain cross-platform compatibility
+- Submit focused pull requests that conform to the existing code style
+- Maintain your branch synchronised with `master`
+- Raise a new [issue](https://github.com/hmlendea/stellaris-ui-species-names/issues) for problems or suggestions
+
+See the [contributing guidelines](./CONTRIBUTING.md) for details on how to report issues, suggest enhancements, and submit changes.
 
 # Universul Unfinitum Collection
 

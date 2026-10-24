@@ -46,6 +46,10 @@ See the [contributing guidelines](./CONTRIBUTING.md) for details on how to repor
 
 See the [Code of Conduct](./CODE_OF_CONDUCT.md) for the standards of conduct expected in all project spaces.
 
+## 🔒 Security
+
+Universum Infinitum: Species Names is a static mod with no executable code. For information on reporting security vulnerabilities, see [SECURITY.md](./SECURITY.md).
+
 # Universul Unfinitum Collection
 
  - [Flags](https://github.com/hmlendea/stellaris-ui-flags)

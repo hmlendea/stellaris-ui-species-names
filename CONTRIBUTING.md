@@ -9,6 +9,7 @@ This document covers the guidelines and processes for contributing to this proje
   - [Suggesting Enhancements](#suggesting-enhancements)
   - [Data Contributions](#data-contributions)
 - [Code of Conduct](#-code-of-conduct)
+- [Security](#-security)
 - [License](#-license)
 - [Getting Assistance](#-getting-assistance)
 
@@ -61,6 +62,10 @@ cd stellaris-ui-species-names
 ## 📋 Code of Conduct
 
 This project follows the [Code of Conduct](./CODE_OF_CONDUCT.md).
+
+## 🔒 Security
+
+Report security vulnerabilities per the [Security Policy](./SECURITY.md).
 
 ## 📄 License
 

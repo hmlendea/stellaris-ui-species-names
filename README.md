@@ -105,7 +105,7 @@ Comprehensive documentation is available in the [docs/](./docs/) directory:
 
 Universum Infinitum: Species Names is a static Stellaris mod consisting of species-name definition files and a mod descriptor. It integrates with the Universum Infinitum - Name Lists mod to extend the game's name generation system.
 
-See the [architecture documentation](./docs/architecture.md) for the system context, principal components, runtime flows, ownership boundaries, dependencies, constraints, and extension points.
+See the [architecture documentation](./ARCHITECTURE.md) for the system context, principal components, runtime flows, ownership boundaries, dependencies, constraints, and extension points.
 
 ## 🩺 Troubleshooting
 

@@ -50,6 +50,17 @@ See the [Code of Conduct](./CODE_OF_CONDUCT.md) for the standards of conduct exp
 
 Universum Infinitum: Species Names is a static mod with no executable code. For information on reporting security vulnerabilities, see [SECURITY.md](./SECURITY.md).
 
+## 📚 Documentation
+
+Comprehensive documentation is available in the [docs/](./docs/) directory:
+
+- [Quick Start](./docs/quick-start.md) — Installation and setup
+- [Change Guide](./docs/change-guide.md) — How to modify the mod
+- [Architecture](./docs/architecture.md) — System design and data flow
+- [Troubleshooting](./docs/troubleshooting.md) — Common issues and solutions
+- [FAQ](./docs/faq.md) — Frequently asked questions
+- [Full Documentation Index](./docs/INDEX.md) — Complete catalogue
+
 # Universul Unfinitum Collection
 
  - [Flags](https://github.com/hmlendea/stellaris-ui-flags)

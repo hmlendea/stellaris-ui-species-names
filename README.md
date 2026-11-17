@@ -1,6 +1,6 @@
 [![Donate](https://img.shields.io/badge/-%E2%99%A5%20Donate-%23ff69b4)](https://hmlendea.go.ro/funding)
 [![Latest Release](https://img.shields.io/github/v/release/hmlendea/stellaris-ui-species-names)](https://github.com/hmlendea/stellaris-ui-species-names/releases/latest)
-[![Build Status](https://github.com/hmlendea/stellaris-ui-species-names/actions/workflows/nexus-mods.yml/badge.svg)](https://github.com/hmlendea/stellaris-ui-species-names/actions/workflows/nexus-mods.yml)
+[![Build Status](https://github.com/hmlendea/stellaris-ui-species-names/actions/workflows/github-release.yml/badge.svg)](https://github.com/hmlendea/stellaris-ui-species-names/actions/workflows/github-release.yml)
 [![License](https://img.shields.io/github/license/hmlendea/stellaris-ui-species-names)](https://github.com/hmlendea/stellaris-ui-species-names/blob/master/LICENSE)
 
 # Universum Infinitum: Species Names
@@ -26,6 +26,7 @@ A Stellaris mod that adds hundreds of new species names to the game.
 - [Code of Conduct](#-code-of-conduct)
 - [Related Projects](#-related-projects)
 - [Security](#-security)
+- [Support](#-support)
 - [Project Engagement](#-project-engagement)
 - [License](#-license)
 
@@ -98,8 +99,9 @@ Comprehensive documentation is available in the [docs/](./docs/) directory:
 
 | Workflow | Purpose | What it does |
 |----------|---------|--------------|
-| [ nexus-mods.yml ](https://github.com/hmlendea/stellaris-ui-species-names/blob/master/.github/workflows/nexus-mods.yml) | Release to Nexus Mods | Downloads the GitHub release asset and uploads it to Nexus Mods on tag push |
-| [ steam-workshop.yml ](https://github.com/hmlendea/stellaris-ui-species-names/blob/master/.github/workflows/steam-workshop.yml) | Release to Steam Workshop | Downloads the GitHub release asset, extracts it, and uploads to Steam Workshop on tag push |
+| [ github-release.yml ](https://github.com/hmlendea/stellaris-ui-species-names/blob/master/.github/workflows/github-release.yml) | GitHub Release | Builds `ui-species-names_<version>.zip` from the published tag and attaches it to the GitHub release |
+| [ nexus-mods-release.yml ](https://github.com/hmlendea/stellaris-ui-species-names/blob/master/.github/workflows/nexus-mods-release.yml) | Release to Nexus Mods | Builds the archive itself on tag push or manual dispatch, sets the descriptor version from the tag, and uploads to Nexus Mods |
+| [ steam-workshop-release.yml ](https://github.com/hmlendea/stellaris-ui-species-names/blob/master/.github/workflows/steam-workshop-release.yml) | Release to Steam Workshop | Builds the archive itself on tag push or manual dispatch, sets the descriptor version from the tag, and uploads to Steam Workshop |
 
 ## 🏗️ Architecture
 
@@ -144,6 +146,10 @@ See the [Code of Conduct](./CODE_OF_CONDUCT.md) for the standards of conduct exp
 Universum Infinitum: Species Names is a static mod with no executable code, telemetry, analytics, or diagnostics.
 
 For information on reporting security vulnerabilities, see [SECURITY.md](./SECURITY.md).
+
+## 💬 Support
+
+For support, please [open an issue](https://github.com/hmlendea/stellaris-ui-species-names/issues).
 
 ## 💝 Project Engagement
 

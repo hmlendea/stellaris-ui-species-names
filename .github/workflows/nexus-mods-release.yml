@@ -19,12 +19,17 @@ jobs:
       VERSION: ${{ inputs.tag || github.ref_name }}
 
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v7
+      with:
+        ref: ${{ env.VERSION }}
 
-    - name: Download the release asset
+    - name: Update the mod version
       run: |
-        RELEASE_ASSET_NAME="ui-species-names_${VERSION#v}.zip"
-        wget "https://github.com/hmlendea/stellaris-ui-species-names/releases/download/${VERSION}/${RELEASE_ASSET_NAME}" -O "release.zip"
+        sed -i "s/^version=\".*\"/version=\"${VERSION}\"/" "ui-species-names.mod" "ui-species-names/descriptor.mod"
+
+    - name: Build the release archive
+      run: |
+        zip -r "release.zip" "ui-species-names/" "ui-species-names.mod"
 
     - name: Upload
       uses: Nexus-Mods/upload-action@v1.0.0-beta.10

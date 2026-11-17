@@ -5,7 +5,7 @@
 ```
 stellaris-ui-species-names/
 ├── .github/
-│   └── workflows/              # GitHub Actions workflows (if any)
+│   └── workflows/              # GitHub Actions release workflows
 ├── ui-species-names/           # Mod root directory (loaded by Stellaris)
 │   ├── descriptor.mod          # Mod metadata for Stellaris launcher
 │   └── common/                 # Game data directory
@@ -205,7 +205,7 @@ This mod has no runtime configuration files. All configuration is static and def
 
 ## Build Artefacts
 
-This mod has no build process. The source files are the distribution artefacts. GitHub Actions workflows (if present) only package releases.
+This mod has no build process. The source files are the distribution artefacts. GitHub Actions workflows only package and publish releases: `github-release.yml` creates the GitHub release asset, while `nexus-mods-release.yml` and `steam-workshop-release.yml` build their own archives and publish them to the respective platforms.
 
 ## Test Files
 

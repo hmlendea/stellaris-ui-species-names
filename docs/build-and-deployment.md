@@ -15,7 +15,7 @@ This mod has **no build process**. The source files are the distribution artefac
 
 - No `package.json`, `Cargo.toml`, `.csproj`, `pom.xml`, `build.gradle`
 - No Makefile, CMake, Meson, Bazel
-- No CI build steps beyond validation
+- CI only archives the committed files and publishes them; it compiles and validates nothing
 
 ## Release Process
 
@@ -24,6 +24,8 @@ This mod has **no build process**. The source files are the distribution artefac
 1. **Update version** in both descriptor files:
    - `ui-species-names.mod`
    - `ui-species-names/descriptor.mod`
+
+   The Nexus Mods and Steam Workshop workflows also set this `version` from the released tag at run time, including the leading `v`, so the committed values only need to be current on the default branch.
 
 2. **Verify consistency**:
    ```bash
@@ -41,23 +43,15 @@ This mod has **no build process**. The source files are the distribution artefac
    - Go to GitHub Releases
    - Click "Draft a new release"
    - Select tag `v1.7.4`
-   - Upload mod archive (zip of `ui-species-names/` directory)
    - Publish
 
-5. **Publish to Steam Workshop**:
-   - Use Steam Workshop upload tool
-   - Select mod directory
-   - Publish update
+   Publishing the release triggers `github-release.yml`, which builds `ui-species-names_1.7.4.zip` and attaches it to the release. The tag push itself triggers `nexus-mods-release.yml` and `steam-workshop-release.yml`, which build their own archives and publish them.
 
-6. **Publish to Paradox Mods**:
-   - Use Paradox Mods upload tool or web interface
-   - Upload mod archive
-   - Publish update
+5. **Publish to Steam Workshop** — automated by `steam-workshop-release.yml`.
+6. **Publish to Nexus Mods** — automated by `nexus-mods-release.yml`.
+7. **Publish to Paradox Mods** — still manual: use the Paradox Mods upload tool or web interface, upload the archive, and publish the update.
 
-7. **Publish to Nexus Mods**:
-   - Log into Nexus Mods
-   - Update mod page with new version
-   - Upload mod archive
+A previously released tag can be republished to Nexus Mods or Steam Workshop without a new tag by running the respective workflow manually from the Actions tab with the `tag` input set.
 
 ### Release Artefact
 
@@ -178,10 +172,13 @@ No version pinning — this mod works with any version of Name Lists mod that pr
 
 ### GitHub Actions
 
-No workflows currently configured. If workflows are added, they should follow the canonical naming convention:
-- `steam-workshop.yml` — Steam Workshop deployment
-- `nexus-mods.yml` — Nexus Mods deployment
-- `github-release.yml` — GitHub Release automation
+| Workflow | Trigger | What it does |
+|----------|---------|--------------|
+| `github-release.yml` | Published GitHub release | Builds `ui-species-names_<version>.zip` from the release tag and attaches it as the release asset |
+| `nexus-mods-release.yml` | `v*.*.*` tag push or manual dispatch with a `tag` input | Builds the release archive locally, sets `version` in both descriptor files to the tag name (with the leading `v`), and uploads it to Nexus Mods |
+| `steam-workshop-release.yml` | `v*.*.*` tag push or manual dispatch with a `tag` input | Builds the release archive locally, sets `version` in both descriptor files to the tag name (with the leading `v`), and uploads it to Steam Workshop |
+
+Each distribution workflow builds its own archive from the checked-out tag; none downloads the GitHub release asset. Both distribution workflows accept a manual `tag` input so a release can be republished without a new tag.
 
 ### Validation Checks
 
@@ -212,11 +209,11 @@ Players with auto-update may need to manually revert.
 - No monitoring, alerting, or logging infrastructure
 - No scaling concerns
 
-### No Secrets in Deployment
+### Secrets in Deployment
 
-- No API keys needed for distribution (manual upload)
+- Distribution workflows require repository secrets: `NEXUSMODS_API_KEY` for Nexus Mods, and `STEAM_USERNAME`, `STEAM_PASSWORD`, and `STEAM_2FA_SEED` for Steam Workshop
 - No credentials in mod files
-- No environment-specific secrets
+- No environment-specific secrets in the distributable content
 
 ### Backup and Recovery
 

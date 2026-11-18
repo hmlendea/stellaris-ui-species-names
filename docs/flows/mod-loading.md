@@ -104,19 +104,17 @@ dependencies = {
 
 **Process**:
 1. Enumerate files alphabetically
-2. Parse each file as key-value tree
-3. For each species definition:
-   - Extract `species_key`
-   - Extract `name` (display name)
+2. Parse each file as a key-value tree whose top-level keys are class blocks
+3. For each species entry inside a class block:
+   - Extract the species key
+   - Extract `name`, `plural`, `home_planet`, `home_system`
    - Extract `name_list` (reference)
-   - Extract `species_class`
-   - Validate `species_class` enum
-   - Register in species name registry
+   - Register the entry in the species name registry under its class block
 
 **Error Handling**:
 - Parse error → Log error, skip file, continue
-- Invalid `species_class` → Log warning, skip entry
-- Duplicate `species_key` → Log warning, use first
+- Unknown class block → Log warning, skip block
+- Duplicate species key → Log warning, use first
 
 ### 6. Random Names Parsing
 
@@ -223,4 +221,4 @@ debugtooltip  # Hover species name to see source
 ## Related Flows
 
 - [Species Generation](species-generation.md) — How names are generated at runtime
-- [Empire Creation](behaviour/empire-creation.md) — User-facing flow
+- [Empire Creation](../behaviour/empire-creation.md) — User-facing flow

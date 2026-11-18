@@ -45,8 +45,8 @@ Stellaris loads the mod by reading:
 
 ## Principal Capabilities
 
-1. **Base species name expansion** — Adds ~15 new species per base class (8 classes × ~15 = ~120 names)
-2. **Media-themed name packs** — Adds ~25-30 species per media pack (5 packs × ~25 = ~125 names)
+1. **Base species name expansion** — Adds 581 species definitions spread across 34 unique name lists, grouped by base class (8 base-class files)
+2. **Media-themed name packs** — Adds themed species definitions in 5 media-pack files (Distant Worlds, Dungeons & Dragons, The Elder Scrolls, Galactic Civilizations, Narivia)
 3. **Genetic modification names** — Provides prefixes/postfixes for genetically modified species
 4. **Cross-platform compatibility** — Works on Windows, Linux, and macOS (no executable code)
 
@@ -100,9 +100,9 @@ Universum Infinitum - Name Lists (dependency mod)
 
 ## Major State
 
-- **Mod version**: Defined in `ui-species-names.mod` and `descriptor.mod` (currently 1.7.4)
+- **Mod version**: Defined in `ui-species-names.mod` and `descriptor.mod` (currently 1.7.5)
 - **Supported game version**: `4.5.*` (Stellaris 4.5.x)
-- **Species name data**: ~250+ species definitions across 13 files
+- **Species name data**: 581 species definitions across 13 files, referencing 34 unique name lists
 
 ## Major Integrations
 

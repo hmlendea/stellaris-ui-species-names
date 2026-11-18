@@ -195,7 +195,7 @@ However, the **base species names** (before modification) come from Name Lists m
 | Metric | Value |
 |--------|-------|
 | Prefix count | 10 |
-| Postfix count | 10 |
-| Total combinations | 100 |
-| File size | ~1 KB |
-| Lines | ~25 |
+| Postfix count | 8 |
+| Total combinations | 80 |
+| File size | 262 bytes |
+| Lines | 22 |

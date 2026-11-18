@@ -123,25 +123,20 @@ Both descriptor files must have identical `version`, `name`, `path`, `tags`, and
 Stellaris-specific format using a custom declarative syntax:
 
 ```txt
-CATEGORY_NAME = {
-    species_key = {
-        name = "Display Name"
-        plural = "Plural Name"
-        home_planet = "Home Planet Name"
-        home_system = "Home System Name"
-        name_list = "name_list_reference"
-    }
+ART = {
+    ### Extra Arthropoids 1 ###
+    bamuth  = { name = Bamuth   plural = Bamuthi    home_planet = Bamuthima    home_system = Bamuth    name_list = "ui_extra_art1" }
     # ... more species definitions
 }
 ```
 
-- **Category**: `ART` (arthropoid), `AVI` (avian), `FUN` (fungoid), `HUM` (humanoid), `MAM` (mammalian), `MOL` (molluscoid), `PLA` (plantoid), `REP` (reptilian), or custom for media packs
-- **species_key**: Unique identifier (lowercase, no spaces)
+- **Class block**: `ART` (arthropoid), `AVI` (avian), `FUN` (fungoid), `HUM` (humanoid), `MAM` (mammalian), `MOL` (molluscoid), `PLANT` (plantoid), `REP` (reptilian), `MACHINE` (machine)
+- **Species key**: Unique identifier (lowercase, no spaces), unique across the mod
 - **name**: Singular display name
 - **plural**: Plural display name
 - **home_planet**: Default home planet name
 - **home_system**: Default home system name
-- **name_list**: References a name list from the Name Lists mod (e.g., `ui_extra_art1`, `ui_dnd_kobold`)
+- **name_list**: References a name list from the Name Lists mod (for example, `ui_extra_art1`, `ui_dnd_kobold`)
 
 ### Random Names File
 
@@ -164,13 +159,13 @@ species_modification_postfix = {
 Key-value format with nested structures:
 
 ```txt
-version="1.7.4"
+version="1.7.5"
 name="Universum Infinitum: Species Names"
 path="mod/ui-species-names"
 tags={
     "Species"
 }
-supported_version="4.5.*"
+supported_version="v4.5.*"
 ```
 
 ## Naming Conventions
@@ -194,7 +189,7 @@ See [INDEX.md](./INDEX.md) for the complete documentation catalogue.
 
 | Directory | Purpose |
 |-----------|---------|
-| `api-reference/` | API reference (N/A for static mod, placeholder only) |
+| `api-reference/` | API reference (not applicable: the mod exposes no API) |
 | `behaviour/` | User-facing behaviour documentation |
 | `components/` | Per-component deep dives |
 | `flows/` | End-to-end execution flows |

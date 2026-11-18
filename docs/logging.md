@@ -44,7 +44,7 @@ grep "name_list" error.log
 ### Normal Operation (Success)
 
 ```
-[Info] Mod "Universum Infinitum: Species Names" v1.7.4 loaded
+[Info] Mod "Universum Infinitum: Species Names" v1.7.5 loaded
 [Info] Parsing species_names/ui_species_extra_arthropoid.txt
 [Info] Parsing species_names/ui_species_extra_avian.txt
 ...

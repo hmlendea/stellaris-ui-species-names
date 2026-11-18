@@ -150,7 +150,7 @@ grep -i "supported_version\|version" error.log
 
 **Diagnosis**:
 1. Check for duplicate species keys
-2. Verify `species_class` values
+2. Verify that every entry sits in the correct class block
 3. Check for conflicting mods
 
 **Resolution**: Remove duplicates, fix class values.

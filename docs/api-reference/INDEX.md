@@ -24,24 +24,22 @@ The only "interface" is the **file format** that Stellaris parses:
 ### Species Definition Format
 
 ```txt
-species_key = {
-    name = "Display Name"
-    name_list = "reference"
-    species_class = "CLASS"
+ART = {
+    bamuth  = { name = Bamuth   plural = Plural   home_planet = Home Planet   home_system = Home System   name_list = "reference" }
 }
 ```
 
 ### Random Names Format
 
 ```txt
-prefix = {
-    "Prefix 1"
-    "Prefix 2"
+species_modification_prefix = {
+    Alpha_
+    Altered_
 }
 
-postfix = {
-    "Postfix 1"
-    "Postfix 2"
+species_modification_postfix = {
+    Magnus
+    Majoris
 }
 ```
 
@@ -49,8 +47,8 @@ postfix = {
 
 ```txt
 name = "Mod Name"
-version = "1.7.4"
-supported_version = "4.5.*"
+version = "1.7.5"
+supported_version = "v4.5.*"
 tags = { "Species" "Name Lists" }
 path = "ui-species-names"
 dependencies = { "ugc_2040234709" }
@@ -107,14 +105,17 @@ If building tools to parse this mod's files:
 {
   "species_definitions": [
     {
-      "key": "ui_species_extra_mammalian_01",
-      "name": "Solari",
-      "name_list": "ui_extra_mam1",
-      "species_class": "MAMMALIAN"
+      "key": "belenud",
+      "class": "MAM",
+      "name": "Belenud",
+      "plural": "Belenuds",
+      "home_planet": "Belenuthe",
+      "home_system": "Belen",
+      "name_list": "ui_extra_mam1"
     }
   ],
-  "prefixes": ["Adapted", "Augmented", "Evolved", ...],
-  "postfixes": ["Prime", "Variant", "Strain", ...]
+  "prefixes": ["Alpha_", "Altered_", "Arch-", ...],
+  "postfixes": ["Magnus", "Majoris", "Maximus", ...]
 }
 ```
 

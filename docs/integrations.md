@@ -52,21 +52,22 @@ This document describes all external integrations for the Universum Infinitum: S
 ### Integration Points
 
 **Base Extra Packs** (8 files):
-- `ui_extra_art1` through `ui_extra_art10`
-- `ui_extra_avi1` through `ui_extra_avi10`
-- `ui_extra_fun1` through `ui_extra_fun10`
-- `ui_extra_hum1` through `ui_extra_hum10`
-- `ui_extra_mam1` through `ui_extra_mam10`
-- `ui_extra_mol1` through `ui_extra_mol10`
-- `ui_extra_pla1` through `ui_extra_pla10`
-- `ui_extra_rep1` through `ui_extra_rep10`
+- `ui_extra_art1`
+- `ui_extra_avi1`, `ui_extra_avi2`
+- `ui_extra_fun1`
+- `ui_extra_hum1` to `ui_extra_hum4`
+- `ui_extra_mam1` to `ui_extra_mam3`
+- `ui_extra_mol1`
+- `ui_extra_pla1`, `ui_extra_pla2`
+- `ui_extra_rep1` to `ui_extra_rep4`
+- `ui_lizard`, `ui_demon`, `ui_dwarven`, `ui_elven`, `ui_goblin`, `ui_orc`, `ui_protoss`
 
 **Media Packs** (5 franchises):
-- `ui_media_dw_*` (Distant Worlds)
-- `ui_media_dnd_*` (Dungeons & Dragons)
-- `ui_media_es_*` (Elder Scrolls)
-- `ui_media_gc_*` (Galactic Civilizations)
-- `ui_media_nar_*` (Narivia)
+- Distant Worlds: `ui_extra_art1`, `ui_extra_hum1`, `ui_extra_mam1`, `ui_extra_mam2`, `ui_extra_rep1` to `ui_extra_rep3`
+- Dungeons & Dragons: `ui_dnd_kobold`
+- Elder Scrolls: `ui_elderscrolls_altmer`, `ui_elderscrolls_dremora`, `ui_elderscrolls_khajiit`, `ui_elderscrolls_orc`, `ui_elderscrolls_spriggan`, `ui_extra_elderscrolls_argonian`
+- Galactic Civilizations: `ui_galciv_yor`
+- Narivia: `ui_narivia_rodah`
 
 ### Coordination Protocol
 

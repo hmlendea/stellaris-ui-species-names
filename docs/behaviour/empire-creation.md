@@ -10,12 +10,12 @@ This document describes the complete empire creation experience when the Univers
 
 **Entry Point**: New Game → Empire Creation → Species tab
 
-**Mod Impact**: Species name dropdown enhanced with ~250 additional names
+**Mod Impact**: Species name dropdown enhanced with 581 additional names
 
 #### Portrait Selection
 
 - 8 base species classes + 5 portrait packs (if DLC owned)
-- Each portrait maps to a `species_class`
+- Each portrait maps to a vanilla species class, represented by a class block (`ART`, `AVI`, `FUN`, `HUM`, `MAM`, `MOL`, `PLANT`, `REP`, `MACHINE`)
 - Mod adds names for all 8 base classes
 - Media packs add names across multiple classes
 
@@ -103,7 +103,7 @@ This document describes the complete empire creation experience when the Univers
 
 - No search in dropdown (vanilla limitation)
 - Scroll through list
-- ~30-40 names per class typical
+- 16 to 221 names per class, depending on species class
 
 ## Media Pack Experience
 
@@ -199,7 +199,7 @@ Each modification = new random prefix/postfix:
 
 ### Dropdown Rendering
 
-- ~30-40 items per class
+- 16 to 221 items per class
 - Instant population
 - No measurable lag
 

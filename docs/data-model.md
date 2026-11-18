@@ -8,7 +8,7 @@ Represents a single species entry in a name list file.
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
-| `species_key` | String | Yes | Unique identifier (lowercase, no spaces) |
+| Species key | String | Yes | Unique identifier (lowercase, no spaces) |
 | `name` | String | Yes | Singular display name (Title Case) |
 | `plural` | String | Yes | Plural display name (Title Case) |
 | `home_planet` | String | Yes | Default home planet name (Title Case) |
@@ -17,12 +17,8 @@ Represents a single species entry in a name list file.
 
 **Example:**
 ```txt
-bamuth = {
-    name = "Bamuth"
-    plural = "Bamuthi"
-    home_planet = "Bamuthima"
-    home_system = "Bamuth"
-    name_list = "ui_extra_art1"
+ART = {
+    bamuth  = { name = Bamuth   plural = Bamuthi    home_planet = Bamuthima    home_system = Bamuth    name_list = "ui_extra_art1" }
 }
 ```
 
@@ -38,9 +34,9 @@ Groups species definitions by species class or theme.
 | `HUM` | Humanoid (human-like) | `ui_species_extra_humanoid` |
 | `MAM` | Mammalian (mammal-like) | `ui_species_extra_mammalian` |
 | `MOL` | Molluscoid (mollusc-like) | `ui_species_extra_molluscoid` |
-| `PLA` | Plantoid (plant-like) | `ui_species_extra_plantoid` |
+| `PLANT` | Plantoid (plant-like) | `ui_species_extra_plantoid` |
 | `REP` | Reptilian (reptile-like) | `ui_species_extra_reptilian` |
-| Custom | Media packs | `ui_species_media_{theme}` |
+| `MACHINE` | Machine (robotic) | `ui_species_media_galciv` |
 
 ### Name List Reference
 
@@ -49,18 +45,18 @@ Links a species definition to a name list defined in the Name Lists mod.
 | Field | Value | Source |
 |-------|-------|--------|
 | `name_list` | `ui_extra_art1` | Name Lists mod |
-| `name_list` | `ui_extra_avi1` | Name Lists mod |
+| `name_list` | `ui_extra_avi1`, `ui_extra_avi2` | Name Lists mod |
 | `name_list` | `ui_extra_fun1` | Name Lists mod |
-| `name_list` | `ui_extra_hum1` | Name Lists mod |
-| `name_list` | `ui_extra_mam1` | Name Lists mod |
+| `name_list` | `ui_extra_hum1` to `ui_extra_hum4` | Name Lists mod |
+| `name_list` | `ui_extra_mam1` to `ui_extra_mam3` | Name Lists mod |
 | `name_list` | `ui_extra_mol1` | Name Lists mod |
-| `name_list` | `ui_extra_pla1` | Name Lists mod |
-| `name_list` | `ui_extra_rep1` | Name Lists mod |
+| `name_list` | `ui_extra_pla1`, `ui_extra_pla2` | Name Lists mod |
+| `name_list` | `ui_extra_rep1` to `ui_extra_rep4` | Name Lists mod |
+| `name_list` | `ui_lizard`, `ui_demon`, `ui_dwarven`, `ui_elven`, `ui_goblin`, `ui_orc`, `ui_protoss` | Name Lists mod |
 | `name_list` | `ui_dnd_kobold` | Name Lists mod |
-| `name_list` | `ui_dw_*` | Name Lists mod |
-| `name_list` | `ui_es_*` | Name Lists mod |
-| `name_list` | `ui_gc_*` | Name Lists mod |
-| `name_list` | `ui_nar_*` | Name Lists mod |
+| `name_list` | `ui_elderscrolls_altmer`, `ui_elderscrolls_dremora`, `ui_elderscrolls_khajiit`, `ui_elderscrolls_orc`, `ui_elderscrolls_spriggan`, `ui_extra_elderscrolls_argonian` | Name Lists mod |
+| `name_list` | `ui_galciv_yor` | Name Lists mod |
+| `name_list` | `ui_narivia_rodah` | Name Lists mod |
 
 ### Species Modification Parts
 
@@ -77,11 +73,11 @@ Describes the mod for Stellaris and distribution platforms.
 
 | Field | Type | Value | Description |
 |-------|------|-------|-------------|
-| `version` | String | `1.7.4` | Mod version (semantic) |
+| `version` | String | `1.7.5` | Mod version (semantic) |
 | `name` | String | `Universum Infinitum: Species Names` | Display name |
 | `path` | String | `mod/ui-species-names` | Install path relative to mod directory |
 | `tags` | Array | `["Species"]` | Categorisation tags |
-| `supported_version` | String | `4.5.*` | Stellaris version compatibility (wildcard) |
+| `supported_version` | String | `v4.5.*` | Stellaris version compatibility (wildcard) |
 
 ## Relationships
 
@@ -131,11 +127,11 @@ This mod uses **no database, no cache, no persistent runtime state**. All data i
 
 ### Invariants
 
-1. **Unique species keys** — Each `species_key` must be unique across all files in this mod
+1. **Unique species keys** — Each species key must be unique across all files in this mod
 2. **Valid name_list references** — Every `name_list` must exist in Name Lists mod
 3. **Matching descriptors** — `ui-species-names.mod` and `descriptor.mod` must be identical
-4. **Supported version format** — `supported_version` must use wildcard pattern (e.g., `4.5.*`)
-5. **Category validity** — Base classes must use standard codes (ART, AVI, FUN, HUM, MAM, MOL, PLA, REP)
+4. **Supported version format** — `supported_version` must use wildcard pattern (for example, `v4.5.*`)
+5. **Category validity** — Every entry must sit in a standard class block (ART, AVI, FUN, HUM, MAM, MOL, PLANT, REP, MACHINE)
 
 ### Validation Points
 
@@ -159,7 +155,7 @@ The Stellaris declarative format is **controlled by Stellaris**, not this mod. C
 
 | Mod Version | Stellaris Version | Notes |
 |-------------|-------------------|-------|
-| 1.7.4 | 4.5.* | Current |
+| 1.7.5 | 4.5.* | Current |
 | Future | 4.6.* | Update `supported_version` |
 | Future | 5.0.* | May require format changes |
 

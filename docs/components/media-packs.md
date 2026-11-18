@@ -23,8 +23,8 @@ ui-species-names/common/species_names/
 |----------|-------|
 | **File** | `ui_species_media_distant-worlds.txt` |
 | **Franchise** | Distant Worlds (4X game series) |
-| **Name List Prefix** | `ui_media_dw_` |
-| **Species Count** | ~18 |
+| **Name Lists Used** | `ui_extra_art1`, `ui_extra_hum1`, `ui_extra_mam1`, `ui_extra_mam2`, `ui_extra_rep1`, `ui_extra_rep2`, `ui_extra_rep3` |
+| **Species Count** | 27 |
 | **Classes Covered** | Mixed |
 
 ### Dungeons & Dragons
@@ -33,8 +33,8 @@ ui-species-names/common/species_names/
 |----------|-------|
 | **File** | `ui_species_media_dnd.txt` |
 | **Franchise** | Dungeons & Dragons (tabletop RPG) |
-| **Name List Prefix** | `ui_media_dnd_` |
-| **Species Count** | ~18 |
+| **Name Lists Used** | `ui_dnd_kobold` |
+| **Species Count** | 31 |
 | **Classes Covered** | Mixed |
 
 ### Elder Scrolls
@@ -43,8 +43,8 @@ ui-species-names/common/species_names/
 |----------|-------|
 | **File** | `ui_species_media_elder-scrolls.txt` |
 | **Franchise** | The Elder Scrolls (RPG series) |
-| **Name List Prefix** | `ui_media_es_` |
-| **Species Count** | ~18 |
+| **Name Lists Used** | `ui_elderscrolls_altmer`, `ui_elderscrolls_dremora`, `ui_elderscrolls_khajiit`, `ui_elderscrolls_orc`, `ui_elderscrolls_spriggan`, `ui_extra_elderscrolls_argonian` |
+| **Species Count** | 87 |
 | **Classes Covered** | Mixed |
 
 ### Galactic Civilizations
@@ -53,8 +53,8 @@ ui-species-names/common/species_names/
 |----------|-------|
 | **File** | `ui_species_media_galciv.txt` |
 | **Franchise** | Galactic Civilizations (4X game series) |
-| **Name List Prefix** | `ui_media_gc_` |
-| **Species Count** | ~18 |
+| **Name Lists Used** | `ui_galciv_yor` |
+| **Species Count** | 17 |
 | **Classes Covered** | Mixed |
 
 ### Narivia
@@ -63,8 +63,8 @@ ui-species-names/common/species_names/
 |----------|-------|
 | **File** | `ui_species_media_narivia.txt` |
 | **Franchise** | Narivia (original sci-fi setting) |
-| **Name List Prefix** | `ui_media_nar_` |
-| **Species Count** | ~18 |
+| **Name Lists Used** | `ui_narivia_rodah` |
+| **Species Count** | 17 |
 | **Classes Covered** | Mixed |
 
 ## Species Definition Pattern
@@ -72,57 +72,54 @@ ui-species-names/common/species_names/
 Media pack species follow the same schema as base extra species:
 
 ```txt
-ui_species_media_<franchise>_<identifier> = {
-    name = "Display Name"
-    name_list = "ui_media_<franchise>_<list>"
-    species_class = "CLASS"
+REP = {
+    ### TES - Argonian ###
+    amuseixth   = { name = "Amuseixth"      plural = "Amuseixthi"   home_planet = "Amusei"  home_system = "Amus"    name_list = "ui_extra_elderscrolls_argonian" }
 }
 ```
 
 ### Key Naming
 
-```
-ui_species_media_<franchise-abbrev>_<species-id>
-```
+Species keys are lowercase identifiers that are unique across the whole mod; the enclosing class block decides the species class.
 
 Examples:
-- `ui_species_media_dnd_kobold`
-- `ui_species_media_es_argonian`
-- `ui_species_media_dw_teekan`
-- `ui_species_media_gc_drengin`
-- `ui_species_media_nar_velari`
+- `ahsu` in `REP`, `name_list = "ui_dnd_kobold"`
+- `amuseixth` in `REP`, `name_list = "ui_extra_elderscrolls_argonian"`
+- `teekan` in `MAM`, `name_list = "ui_extra_mam2"`
+- `zen` in `MACHINE`, `name_list = "ui_galciv_yor"`
+- `rodah` in `HUM`, `name_list = "ui_narivia_rodah"`
 
 ## Integration with Stellaris
 
 ### Portrait Association
 
-Media pack species use **existing Stellaris portraits**. The `species_class` determines which portrait group they appear under.
+Media pack species use **existing Stellaris portraits**. The enclosing class block determines which portrait group they appear under.
 
-| Species Class | Portrait Group |
-|---------------|----------------|
-| `REPTILIAN` | Reptilian portraits |
-| `AVIAN` | Avian portraits |
-| `MAMMALIAN` | Mammalian portraits |
-| etc. | etc. |
+| Class block | Portrait group |
+|-------------|----------------|
+| `REP` | Reptilian portraits |
+| `AVI` | Avian portraits |
+| `MAM` | Mammalian portraits |
+| others | Matching class group |
 
 ### Empire Creation
 
 1. Player selects portrait (e.g., Reptilian)
-2. Media pack species with `species_class = "REPTILIAN"` appear in name dropdown
+2. Media pack entries inside the `REP` block appear in the name dropdown
 3. Names shown are from `name` field (franchise-themed display names)
 4. Actual generated names come from Name Lists mod via `name_list` reference
 
 ## Name List References
 
-Each media pack references name lists from Name Lists mod with franchise-specific prefixes:
+Each media pack reuses name lists supplied by the Name Lists mod:
 
-| Pack | Name List Prefix | Example References |
-|------|------------------|-------------------|
-| Distant Worlds | `ui_media_dw_` | `ui_media_dw_teekan`, `ui_media_dw_dhayuut` |
-| D&D | `ui_media_dnd_` | `ui_media_dnd_kobold`, `ui_media_dnd_drow` |
-| Elder Scrolls | `ui_media_es_` | `ui_media_es_argonian`, `ui_media_es_khajiit` |
-| GalCiv | `ui_media_gc_` | `ui_media_gc_drengin`, `ui_media_gc_altarian` |
-| Narivia | `ui_media_nar_` | `ui_media_nar_velari`, `ui_media_nar_zyth` |
+| Pack | Name Lists Referenced |
+|------|-----------------------|
+| Distant Worlds | `ui_extra_art1`, `ui_extra_hum1`, `ui_extra_mam1`, `ui_extra_mam2`, `ui_extra_rep1`, `ui_extra_rep2`, `ui_extra_rep3` |
+| D&D | `ui_dnd_kobold` |
+| Elder Scrolls | `ui_elderscrolls_altmer`, `ui_elderscrolls_dremora`, `ui_elderscrolls_khajiit`, `ui_elderscrolls_orc`, `ui_elderscrolls_spriggan`, `ui_extra_elderscrolls_argonian` |
+| GalCiv | `ui_galciv_yor` |
+| Narivia | `ui_narivia_rodah` |
 
 ## Adding a New Media Pack
 
@@ -130,35 +127,31 @@ Each media pack references name lists from Name Lists mod with franchise-specifi
 
 1. **Coordinate with Name Lists mod maintainer** — New name lists must be added there first
 2. **Create new file**: `ui_species_media_<franchise>.txt`
-3. **Add species definitions** following the pattern
-4. **Use consistent abbreviation** for franchise (3-4 letters)
+3. **Add a class block and entries** following the single-line pattern used by existing files
+4. **Use a unique lowercase key** for every species
 5. **Cover multiple species classes** for variety
-6. **Update documentation**: INDEX.md, repository-overview.md, this file
+6. **Update documentation**: `docs/INDEX.md`, `docs/repository-overview.md`, this file
 7. **Test in-game** with relevant portraits
 
-### Example: Adding "Warhammer 40k" Pack
+### Example: Adding a Warhammer 40,000 Pack
 
 ```txt
-# File: ui_species_media_warhammer40k.txt
 # Media Pack: Warhammer 40,000
 # Source: Games Workshop
 
-ui_species_media_wh40k_ork = {
-    name = "Ork"
-    name_list = "ui_media_wh40k_ork"
-    species_class = "MAMMALIAN"
+MAM = {
+    ### Warhammer 40,000 - Ork ###
+    ork     = { name = Ork      plural = Orks     home_planet = Orkworld    home_system = Ork     name_list = "ui_extra_mam1" }
 }
 
-ui_species_media_wh40k_eldar = {
-    name = "Aeldari"
-    name_list = "ui_media_wh40k_eldar"
-    species_class = "HUMANOID"
+HUM = {
+    ### Warhammer 40,000 - Aeldari ###
+    aeldari = { name = Aeldari  plural = Aeldari  home_planet = Craftworld  home_system = Aeldar  name_list = "ui_extra_hum1" }
 }
 
-ui_species_media_wh40k_tyranid = {
-    name = "Tyranid"
-    name_list = "ui_media_wh40k_tyranid"
-    species_class = "ARTHROPOID"
+ART = {
+    ### Warhammer 40,000 - Tyranid ###
+    tyranid = { name = Tyranid  plural = Tyranids home_planet = Tyran     home_system = Tyra     name_list = "ui_extra_art1" }
 }
 ```
 
@@ -185,10 +178,10 @@ ui_species_media_wh40k_tyranid = {
 | Metric | Value |
 |--------|-------|
 | Media packs | 5 |
-| Total media species | ~90 |
-| Species per pack | ~18 |
-| Name list references per pack | ~18 |
-| Franchise abbreviations | dw, dnd, es, gc, nar |
+| Total media species | 160 |
+| Species per pack | 17 to 87 |
+| Unique name lists per pack | 1 to 6 |
+| Name list families | `ui_extra_*`, `ui_dnd_kobold`, `ui_elderscrolls_*`, `ui_galciv_yor`, `ui_narivia_rodah` |
 
 ## Future Packs
 

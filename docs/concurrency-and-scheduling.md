@@ -128,14 +128,14 @@ Order within `species_names/` doesn't matter — all species definitions are reg
 
 | Data | Size | Notes |
 |------|------|-------|
-| Mod files on disk | ~50 KB | Uncompressed |
-| Engine memory | ~100 KB | Parsed structures |
+| Mod files on disk | ~218 KB | Uncompressed |
+| Engine memory | ~250 KB | Parsed structures |
 | Save game impact | Minimal | Only chosen names stored |
 
 ## No Scaling Concerns
 
 - Single-player or multiplayer: same mod load
-- Mod size fixed: ~250 species, ~50 name parts
+- Mod size fixed: 581 species, 19 name parts
 - No user-generated content
 - No dynamic scaling
 

@@ -59,19 +59,16 @@ This flow describes how species names are generated at runtime in Stellaris, usi
 
 Player chooses a species portrait in empire creation.
 
-Each portrait has a fixed `species_class`:
-- Mammalian portraits → `MAMMALIAN`
-- Reptilian portraits → `REPTILIAN`
+Each portrait belongs to a fixed species class, which maps to the matching class block:
+- Mammalian portraits → `MAM`
+- Reptilian portraits → `REP`
 - etc.
 
 ### Step 2: Species Definition Query
 
-Engine queries all registered species definitions where:
-```txt
-species_class = "SELECTED_CLASS"
-```
+Engine queries every registered entry inside the class block for the selected portrait class (`ART`, `AVI`, `FUN`, `HUM`, `MAM`, `MOL`, `PLANT`, `REP`, or `MACHINE`).
 
-Returns list of `{ species_key, name, name_list }`
+Returns list of `{ key, name, plural, home_planet, home_system, name_list }`
 
 ### Step 3: Display Name Presentation
 
@@ -223,7 +220,7 @@ If random names file not loaded:
 
 | Operation | Complexity | Typical Time |
 |-----------|------------|--------------|
-| Species query by class | O(s) where s = species per class (~30) | <1ms |
+| Species query by class | O(s) where s = species per class (16-221) | <1ms |
 | Name list lookup | O(1) hash | <1ms |
 | Random selection | O(1) | <1ms |
 | Prefix/postfix selection | O(1) each | <1ms |
@@ -254,4 +251,4 @@ grep "genetic.*modif\|prefix\|postfix" error.log
 ## Related Flows
 
 - [Mod Loading](mod-loading.md) — How data gets into engine
-- [Empire Creation Behaviour](behaviour/empire-creation.md) — User perspective
+- [Empire Creation Behaviour](../behaviour/empire-creation.md) — User perspective

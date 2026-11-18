@@ -46,7 +46,7 @@ This document records significant design decisions, their rationale, and context
 **Rationale**:
 - Separation of concerns: Name lists reusable by other mods
 - Maintainability: Update names in one place
-- Size: This mod stays small (~50KB vs ~500KB with names)
+- Size: This mod stays modest (~218 KB vs ~500 KB with inline names)
 - Community: Other modders can use name lists
 - Updates: Name lists can evolve independently
 

@@ -11,7 +11,7 @@ This document describes the user-facing behaviour of species name selection in S
 **User Action**: Click on a species portrait in empire creation screen.
 
 **System Response**:
-- Engine determines `species_class` from portrait
+- Engine determines the species class from the selected portrait
 - Queries all species definitions with matching class
 - Includes vanilla + this mod's definitions
 
@@ -21,7 +21,7 @@ This document describes the user-facing behaviour of species name selection in S
 
 **Display Order**:
 1. Vanilla species names (hardcoded order)
-2. This mod's species names (alphabetical by `species_key`)
+2. This mod's species names (alphabetical by species key)
 3. Other mods' species names (load order)
 
 **Example for Mammalian Portrait**:
@@ -40,7 +40,7 @@ This document describes the user-facing behaviour of species name selection in S
 **User Action**: Click a name from dropdown.
 
 **System Response**:
-- Store selected `species_key` and `name_list` reference
+- Store the selected species key and `name_list` reference
 - No immediate name generation
 
 ### 4. Empire Finalisation
@@ -65,8 +65,8 @@ This document describes the user-facing behaviour of species name selection in S
 | Display Name Selected | Name List Used | Pool Source |
 |----------------------|----------------|-------------|
 | Vanilla names | Vanilla lists | Stellaris core |
-| `ui_species_extra_*` | `ui_extra_*` | Name Lists mod |
-| `ui_species_media_*` | `ui_media_*` | Name Lists mod |
+| Base extra entries (`ART`, `AVI`, `FUN`, `HUM`, `MAM`, `MOL`, `PLANT`, `REP`) | `ui_extra_*`, `ui_demon`, `ui_dwarven`, `ui_elven`, `ui_goblin`, `ui_orc`, `ui_protoss`, `ui_lizard` | Name Lists mod |
+| Media pack entries | `ui_dnd_kobold`, `ui_elderscrolls_*`, `ui_galciv_yor`, `ui_narivia_rodah`, `ui_extra_*` | Name Lists mod |
 
 ### Fallback Behaviour
 
@@ -179,7 +179,7 @@ If two species definitions have same `name`:
 
 ### Dropdown Population
 
-- ~30 names per class (vanilla + this mod)
+- 16 to 221 names per class (this mod, plus vanilla names)
 - Negligible UI impact
 - No lazy loading needed
 

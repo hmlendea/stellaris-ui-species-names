@@ -25,7 +25,7 @@
 | Cause | Solution |
 |-------|----------|
 | Name Lists mod not installed | Install [Universum Infinitum - Name Lists](https://steamcommunity.com/sharedfiles/filedetails/?id=2040234709) |
-| Wrong species_class | Use exact class: ARTHROPOID, AVIAN, FUNGOID, HUMANOID, MAMMALIAN, MOLLUSCOID, PLANTOID, REPTILIAN |
+| Entry in the wrong class block | Use the block matching the portrait class: `ART`, `AVI`, `FUN`, `HUM`, `MAM`, `MOL`, `PLANT`, `REP`, `MACHINE` |
 | Invalid name_list reference | Verify `name_list` value exists in Name Lists mod |
 | Duplicate species key | Check for duplicate keys across all species files |
 | File not loaded | Verify file is in `common/species_names/` with `.txt` extension |
@@ -64,7 +64,7 @@
 
 | Cause | Solution |
 |-------|----------|
-| Descriptor version format | Use `version = "1.7.4"` (string with quotes) |
+| Descriptor version format | Use `version = "1.7.5"` (string with quotes) |
 | Missing required fields | Descriptor must have: name, version, supported_version, tags, path |
 | Path mismatch | `path = "ui-species-names"` must match folder name exactly |
 | Unsupported Stellaris version | Update `supported_version` to match installed Stellaris |

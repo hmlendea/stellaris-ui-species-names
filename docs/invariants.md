@@ -21,9 +21,9 @@ This document defines the invariants â€” conditions that must always hold true â
 | Invariant | Description | Validation |
 |-----------|-------------|------------|
 | Unique species keys | No duplicate keys across all files in `common/species_names/` | `grep` + `sort` + `uniq -d` |
-| Key naming convention | All keys match `^ui_species_(extra|media)_[a-z_]+$` | Regex validation |
-| Required fields present | Each species has `name`, `name_list`, `species_class` | Field existence check |
-| `species_class` values | Must be one of 8 vanilla classes | Enum validation |
+| Key naming convention | Species keys are lowercase alphanumeric identifiers | Regex validation |
+| Required fields present | Each species has `name`, `plural`, `home_planet`, `home_system`, and `name_list` | Field existence check |
+| Class block values | Each entry sits in a valid block: `ART`, `AVI`, `FUN`, `HUM`, `MAM`, `MOL`, `PLANT`, `REP`, `MACHINE` | Block validation |
 | `name_list` references | Must exist in Name Lists mod | Cross-reference check |
 | File encoding | UTF-8, LF line endings | `file` command |
 | No trailing whitespace | Clean formatting | Editor/linter |
@@ -80,7 +80,7 @@ This document defines the invariants â€” conditions that must always hold true â
 
 | Invariant | Description |
 |-----------|-------------|
-| Species count matches expectation | ~250+ species across files |
+| Species count matches expectation | 581 species across files, 34 unique name lists |
 | Media packs self-contained | Each media file references only its franchise lists |
 | Base extra files class-pure | Each extra file contains only its class |
 
@@ -110,7 +110,7 @@ This document defines the invariants â€” conditions that must always hold true â
 | Invariant | Description |
 |-----------|-------------|
 | `main` branch always releasable | Passes all validation |
-| Tags match release versions | `v1.7.4` for version `1.7.4` |
+| Tags match release versions | `v1.7.5` for version `1.7.5` |
 | No uncommitted changes in release | Clean working tree |
 | Commit messages follow convention | Descriptive, present tense |
 
@@ -136,8 +136,16 @@ This document defines the invariants â€” conditions that must always hold true â
 ### Current (Manual)
 
 ```bash
-# Run all checks
-./validate-all.sh  # (to be created)
+# Descriptor consistency
+grep '^version=' ui-species-names.mod ui-species-names/descriptor.mod
+
+# Duplicate species keys across all definition files
+grep -hoP '^\s+\K[a-zA-Z0-9_]+(?=\s+=)' \
+  ui-species-names/common/species_names/*.txt | sort | uniq -d
+
+# Name list references
+grep -h 'name_list' ui-species-names/common/species_names/*.txt | \
+  sed 's/.*name_list = "\([^"]*\)".*/\1/' | sort -u
 ```
 
 ### Planned (Automated)

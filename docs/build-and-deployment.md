@@ -25,7 +25,7 @@ This mod has **no build process**. The source files are the distribution artefac
    - `ui-species-names.mod`
    - `ui-species-names/descriptor.mod`
 
-   All three release workflows also set this `version` from the released tag at run time, stripping the leading `v` (tag `v1.7.4` produces `version = "1.7.4"`), so the committed values only need to be current on the default branch. Each workflow inserts the `version` line when a descriptor does not contain one.
+   All three release workflows also set this `version` from the released tag at run time, stripping the leading `v` (tag `v1.7.5` produces `version = "1.7.5"`), so the committed values only need to be current on the default branch. Each workflow inserts the `version` line when a descriptor does not contain one.
 
 2. **Verify consistency**:
    ```bash
@@ -35,17 +35,17 @@ This mod has **no build process**. The source files are the distribution artefac
 
 3. **Create Git tag**:
    ```bash
-   git tag -a v1.7.4 -m "Release version 1.7.4"
-   git push origin v1.7.4
+   git tag -a v1.7.5 -m "Release version 1.7.5"
+   git push origin v1.7.5
    ```
 
 4. **Create GitHub Release**:
    - Go to GitHub Releases
    - Click "Draft a new release"
-   - Select tag `v1.7.4`
+   - Select tag `v1.7.5`
    - Publish
 
-   Publishing the release triggers `github-release.yml`, which builds `ui-species-names_1.7.4.zip` and attaches it to the release. The tag push itself triggers `nexus-mods-release.yml` and `steam-workshop-release.yml`, which build their own archives and publish them.
+   Publishing the release triggers `github-release.yml`, which builds `ui-species-names_1.7.5.zip` and attaches it to the release. The tag push itself triggers `nexus-mods-release.yml` and `steam-workshop-release.yml`, which build their own archives and publish them.
 
 5. **Publish to Steam Workshop** — automated by `steam-workshop-release.yml`.
 6. **Publish to Nexus Mods** — automated by `nexus-mods-release.yml`.
@@ -86,7 +86,7 @@ ui-species-names/
 - **MINOR**: New species names, new media packs, new features
 - **PATCH**: Bug fixes, typo corrections, descriptor updates
 
-Current: `1.7.4`
+Current: `1.7.5`
 
 ## Deployment Environments
 

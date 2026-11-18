@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This document describes the architecture of Universum Infinitum: Species Names, a static Stellaris mod. It complements the root ARCHITECTURE.md (when created) by providing implementation-level detail specific to this mod's data structure and integration with Stellaris.
+This document describes the architecture of Universum Infinitum: Species Names, a static Stellaris mod. It complements the root [ARCHITECTURE.md](../ARCHITECTURE.md) by providing implementation-level detail specific to this mod's data structure and integration with Stellaris.
 
 ## System Context
 
@@ -383,7 +383,7 @@ flowchart TD
 
 ### Current State
 
-- Mod version 1.7.4
+- Mod version 1.7.5
 - Supports Stellaris 4.5.*
 - 13 species name files (8 base + 5 media)
 - Requires Name Lists mod (version not pinned)

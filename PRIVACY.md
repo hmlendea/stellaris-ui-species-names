@@ -56,6 +56,8 @@ The mod has no built-in external data transfer or integrations. Distribution pla
 
 The mod contains no executable component that handles personal data and implements no personal-data security controls. Keep the game, device, and any distribution-platform account secure using the safeguards provided by their respective operators. This document does not promise absolute security.
 
+The original maintainers are not responsible for changes, modifications, or privacy issues introduced by downstream forks.
+
 ## 🔄 Document Changes
 
 Update this document when application data flows, storage, integrations, or deployment responsibilities change. The current version is published at [PRIVACY.md](PRIVACY.md).

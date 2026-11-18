@@ -7,7 +7,7 @@ This document describes the current architecture of Universum Infinitum: Species
 - [Purpose](#-purpose)
 - [System Context](#-system-context)
 - [Architectural Style](#️-architectural-style)
-- [Runtime Flow](#-runtime-flow)
+- [Runtime Process](#-runtime-process)
 - [Architectural Areas](#-architectural-areas)
 - [Data Architecture](#-data-architecture)
 - [Interfaces and Integrations](#-interfaces-and-integrations)
@@ -18,7 +18,7 @@ This document describes the current architecture of Universum Infinitum: Species
 - [Deployment and Operations](#-deployment-and-operations)
 - [Compatibility Contracts](#-compatibility-contracts)
 - [Testing and Verification](#-testing-and-verification)
-- [Design Constraints](#-design-constraints)
+- [Design Constraints](#️-design-constraints)
 - [Related Documentation](#-related-documentation)
 
 ## 🎯 Purpose
@@ -114,7 +114,7 @@ The principal architecture boundaries are:
 - **Stellaris Integration Layer:** Mod loader, name list parser, reference resolver; owned by Stellaris engine
 - **Dependency Layer:** Name list definitions; owned by Universum Infinitum - Name Lists mod
 
-## 🔄 Runtime Flow
+## 🔄 Runtime Process
 
 ```mermaid
 sequenceDiagram
@@ -380,7 +380,7 @@ Execute the principal automated verification with:
 # 4. Verify genetic modification prefixes/postfixes work
 ```
 
-## 🚫 Design Constraints
+## ⚠️ Design Constraints
 
 | Constraint | Rationale | Impact |
 |------------|-----------|--------|

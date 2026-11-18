@@ -12,18 +12,17 @@ This guide documents how to make changes to the mod, covering common modificatio
 
 **Pattern**:
 ```txt
-new_species_key = {
-    name = "Display Name"
-    name_list = "ui_name_list_reference"
-    species_class = "CLASS"
+MAM = {
+    ### Extra Mammalians 1 ###
+    durem   = { name = Durem   plural = Durems   home_planet = Duremuthe   home_system = Duror   name_list = "ui_extra_mam1" }
 }
 ```
 
 **Steps**:
-1. Choose appropriate file by species class (arthropoid, avian, fungoid, humanoid, mammalian, molluscoid, plantoid, reptilian) or media pack
-2. Add new species definition at end of file
+1. Choose the appropriate file by species class (arthropoid, avian, fungoid, humanoid, mammalian, molluscoid, plantoid, reptilian) or media pack
+2. Add the entry inside the matching class block
 3. Ensure `name_list` reference exists in Name Lists mod
-4. Use unique key (prefix with `ui_species_` for consistency)
+4. Use a unique lowercase key that does not exist anywhere else in the mod
 5. Validate: no duplicate keys, correct syntax
 
 ### Adding New Media Pack
@@ -35,10 +34,9 @@ new_species_key = {
 # Media Pack: <Pack Name>
 # Source: <Source Material>
 
-ui_species_media_<pack>_<species> = {
-    name = "Display Name"
-    name_list = "ui_media_<pack>_<list>"
-    species_class = "CLASS"
+REP = {
+    ### <Pack Name> - <Subject> ###
+    <key>   = { name = <Name>   plural = <Plural>   home_planet = <Planet>   home_system = <System>   name_list = "<name_list>" }
 }
 ```
 
@@ -80,7 +78,7 @@ postfix = {
 
 **Change**:
 ```txt
-supported_version = "4.5.*"
+supported_version = "v4.5.*"
 ```
 →
 ```txt
@@ -129,9 +127,9 @@ file ui-species-names/common/random_names/base/ui-species-names.txt
 
 | Change Type | Version Bump |
 |-------------|--------------|
-| New species names, media packs | MINOR (1.7.4 → 1.8.0) |
-| Bug fixes, typos, descriptor updates | PATCH (1.7.4 → 1.7.5) |
-| Breaking format changes | MAJOR (1.7.4 → 2.0.0) |
+| New species names, media packs | MINOR (1.7.5 → 1.8.0) |
+| Bug fixes, typos, descriptor updates | PATCH (1.7.5 → 1.7.6) |
+| Breaking format changes | MAJOR (1.7.5 → 2.0.0) |
 
 ### Release Steps
 
@@ -151,7 +149,7 @@ file ui-species-names/common/random_names/base/ui-species-names.txt
 | Descriptor mismatch | Mod doesn't appear or wrong version | Always update both files, run `diff` |
 | Duplicate species key | Undefined behaviour, one ignored | Run duplicate check before commit |
 | Invalid name_list reference | Species has no names in-game | Cross-reference with Name Lists mod |
-| Wrong species_class | Names don't appear for that class | Use exact class names: ARTHROPOID, AVIAN, FUNGOID, HUMANOID, MAMMALIAN, MOLLUSCOID, PLANTOID, REPTILIAN |
+| Entry in the wrong class block | Names do not appear for that class | Use the block matching the portrait class: `ART`, `AVI`, `FUN`, `HUM`, `MAM`, `MOL`, `PLANT`, `REP`, `MACHINE` |
 | Encoding issues | Parse errors on some platforms | Save as UTF-8, LF line endings |
 | Missing comma/braces | Parse error, mod fails to load | Validate syntax, test in-game |
 
@@ -160,25 +158,24 @@ file ui-species-names/common/random_names/base/ui-species-names.txt
 ### Species Definition
 
 ```txt
-species_key = {
-    name = "Display Name"           # Required: shown in UI
-    name_list = "reference"         # Required: must exist in Name Lists mod
-    species_class = "CLASS"         # Required: one of 8 base classes
-    # Optional: portrait, etc. (not used in this mod)
+ART = {
+    bamuth  = { name = Bamuth   plural = Bamuthi   home_planet = Bamuthima   home_system = Bamuth   name_list = "ui_extra_art1" }
 }
 ```
+
+Each entry provides `name`, `plural`, `home_planet`, `home_system`, and `name_list`; the enclosing class block selects the species class.
 
 ### Random Names (Prefixes/Postfixes)
 
 ```txt
-prefix = {
-    "Prefix 1"
-    "Prefix 2"
+species_modification_prefix = {
+    Alpha_
+    Altered_
 }
 
-postfix = {
-    "Postfix 1"
-    "Postfix 2"
+species_modification_postfix = {
+    Magnus
+    Majoris
 }
 ```
 
@@ -186,8 +183,8 @@ postfix = {
 
 ```txt
 name = "Universum Infinitum: Species Names"
-version = "1.7.4"
-supported_version = "4.5.*"
+version = "1.7.5"
+supported_version = "v4.5.*"
 tags = {
     "Species"
     "Name Lists"

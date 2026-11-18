@@ -10,11 +10,11 @@ Both `ui-species-names.mod` and `ui-species-names/descriptor.mod` contain identi
 
 | Field | Type | Required | Description | Example |
 |-------|------|----------|-------------|---------|
-| `version` | String | Yes | Mod version (semantic versioning) | `1.7.4` |
+| `version` | String | Yes | Mod version (semantic versioning) | `1.7.5` |
 | `name` | String | Yes | Display name in launcher | `Universum Infinitum: Species Names` |
 | `path` | String | Yes | Install path relative to mod directory | `mod/ui-species-names` |
 | `tags` | Object | Yes | Categorisation tags | `{ "Species" }` |
-| `supported_version` | String | Yes | Stellaris version compatibility | `4.5.*` |
+| `supported_version` | String | Yes | Stellaris version compatibility | `v4.5.*` |
 
 ### Configuration Sources
 
@@ -83,7 +83,7 @@ This mod **contains no secrets, credentials, or sensitive data**. All files are:
 
 ### Updating Supported Stellaris Version
 
-1. Update `supported_version` in both descriptor files (e.g., `4.5.*` → `4.6.*`)
+1. Update `supported_version` in both descriptor files (for example, `v4.5.*` → `v4.6.*`)
 2. Test mod with new Stellaris version
 3. Release new mod version
 

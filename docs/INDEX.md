@@ -6,9 +6,8 @@ Universum Infinitum: Species Names is a Stellaris mod that adds hundreds of new 
 
 ## Root Document Map
 
-- [ARCHITECTURE.md](../ARCHITECTURE.md) — High-level architecture (to be created)
+- [ARCHITECTURE.md](../ARCHITECTURE.md) — High-level architecture
 - [SECURITY.md](../SECURITY.md) — Security policy and vulnerability reporting
-- [ROADMAP.md](../ROADMAP.md) — Project roadmap (to be created)
 - [PRIVACY.md](../PRIVACY.md) — Privacy and personal data handling
 - [LICENSE](../LICENSE) — GNU General Public License v3.0
 - [CONTRIBUTING.md](../CONTRIBUTING.md) — Contribution guidelines
@@ -83,6 +82,6 @@ Universum Infinitum: Species Names is a Stellaris mod that adds hundreds of new 
 
 ## Maintenance Metadata
 
-- Last reviewed: 2026-11-03
+- Last reviewed: 2026-11-18
 - Owner: Repository maintainers
-- Coverage status: Initial generation in progress
+- Coverage status: Complete for the current repository content

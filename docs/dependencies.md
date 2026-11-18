@@ -9,7 +9,7 @@
 | **Name** | Universum Infinitum - Name Lists |
 | **Type** | Stellaris mod (name list provider) |
 | **Relationship** | Hard dependency — this mod cannot function without it |
-| **Provides** | `name_list` references (e.g., `ui_extra_art1`, `ui_dnd_kobold`, `ui_media_dw_*`) |
+| **Provides** | `name_list` references (for example, `ui_extra_art1`, `ui_dnd_kobold`, `ui_galciv_yor`) |
 | **Version Pinning** | None — works with any version providing referenced lists |
 | **Distribution** | Same platforms: Steam Workshop, Paradox Mods, Nexus Mods, GitHub |
 
@@ -17,22 +17,24 @@
 
 This mod references the following name lists from Name Lists mod:
 
-**Base Extra Packs** (8 files, ~160 species):
-- `ui_extra_art1` — `ui_extra_art10` (Arthropoid)
-- `ui_extra_avi1` — `ui_extra_avi10` (Avian)
-- `ui_extra_fun1` — `ui_extra_fun10` (Fungoid)
-- `ui_extra_hum1` — `ui_extra_hum10` (Humanoid)
-- `ui_extra_mam1` — `ui_extra_mam10` (Mammalian)
-- `ui_extra_mol1` — `ui_extra_mol10` (Molluscoid)
-- `ui_extra_pla1` — `ui_extra_pla10` (Plantoid)
-- `ui_extra_rep1` — `ui_extra_rep10` (Reptilian)
+**Base Extra Packs** (8 files, 421 species):
+- `ui_extra_art1` (Arthropoid, 16 species)
+- `ui_extra_avi1`, `ui_extra_avi2` (Avian, 32 species)
+- `ui_extra_fun1` (Fungoid, 16 species)
+- `ui_extra_hum1` to `ui_extra_hum4` (Humanoid, 160 species)
+- `ui_extra_mam1` to `ui_extra_mam3` (Mammalian, 50 species)
+- `ui_extra_mol1` (Molluscoid, 16 species)
+- `ui_extra_pla1`, `ui_extra_pla2` (Plantoid, 32 species)
+- `ui_extra_rep1` to `ui_extra_rep4` (Reptilian, 80 species)
+- `ui_lizard` (Reptilian, 16 species)
+- `ui_demon`, `ui_dwarven`, `ui_elven`, `ui_goblin`, `ui_orc`, `ui_protoss` (Humanoid, 60 species)
 
-**Media Packs** (5 files, ~90 species):
-- `ui_media_dw_*` (Distant Worlds)
-- `ui_media_dnd_*` (Dungeons & Dragons)
-- `ui_media_es_*` (Elder Scrolls)
-- `ui_media_gc_*` (Galactic Civilizations)
-- `ui_media_nar_*` (Narivia)
+**Media Packs** (5 files, 160 species):
+- `ui_extra_art1`, `ui_extra_hum1`, `ui_extra_mam1`, `ui_extra_mam2`, `ui_extra_rep1` to `ui_extra_rep3` (Distant Worlds, 27 species)
+- `ui_dnd_kobold` (Dungeons & Dragons, 31 species)
+- `ui_elderscrolls_altmer`, `ui_elderscrolls_dremora`, `ui_elderscrolls_khajiit`, `ui_elderscrolls_orc`, `ui_elderscrolls_spriggan`, `ui_extra_elderscrolls_argonian` (Elder Scrolls, 87 species)
+- `ui_galciv_yor` (Galactic Civilizations, 17 species)
+- `ui_narivia_rodah` (Narivia, 17 species)
 
 ### Stellaris Game Engine
 

@@ -17,9 +17,10 @@ A Stellaris mod that adds hundreds of new species names to the game.
 - [Compatibility](#-compatibility)
 - [Integrations](#-integrations)
 - [Privacy and Data](#️-privacy-and-data)
-- [Documentation](#-documentation)
 - [GitHub Actions](#️-github-actions)
+- [Project Structure](#️-project-structure)
 - [Architecture](#️-architecture)
+- [Documentation](#-documentation)
 - [Troubleshooting](#-troubleshooting)
 - [FAQ](#-faq)
 - [Contributing](#-contributing)
@@ -82,6 +83,32 @@ Universum Infinitum: Species Names does not collect, process, transmit, or persi
 
 For the detailed description of how the application handles privacy and personal data, see [PRIVACY.md](./PRIVACY.md).
 
+## ⚙️ GitHub Actions
+
+| Workflow | Purpose | What it does |
+|----------|---------|--------------|
+| [ github-release.yml ](https://github.com/hmlendea/stellaris-ui-species-names/blob/master/.github/workflows/github-release.yml) | GitHub Release | Builds `ui-species-names_<version>.zip` from the published tag, setting the descriptor version first, and attaches it to the GitHub release |
+| [ nexus-mods-release.yml ](https://github.com/hmlendea/stellaris-ui-species-names/blob/master/.github/workflows/nexus-mods-release.yml) | Release to Nexus Mods | Runs on a `v*.*.*` tag push or manual dispatch: checks out the tag, sets the descriptor version, zips the descriptor and content directory, and uploads `ui-species-names.zip` to Nexus Mods |
+| [ steam-workshop-release.yml ](https://github.com/hmlendea/stellaris-ui-species-names/blob/master/.github/workflows/steam-workshop-release.yml) | Release to Steam Workshop | Runs on a `v*.*.*` tag push or manual dispatch: checks out the tag, sets the descriptor version, zips and extracts the descriptor and content directory, and uploads the content directory to Workshop item `2040234709` with a changelog link |
+
+## 🗂️ Project Structure
+
+The repository holds the distributable mod under `ui-species-names/` plus a launcher descriptor at the repository root, with maintainer documentation in `docs/`.
+
+### Directories
+
+| Directory | Purpose |
+|-----------|---------|
+| `ui-species-names/common/species_names/` | Species name definitions, one file per species class or media pack |
+| `ui-species-names/common/random_names/base/` | Species modification prefixes and postfixes |
+| `docs/` | Maintainer documentation, flows, and component references |
+
+## 🏗️ Architecture
+
+Universum Infinitum: Species Names is a static Stellaris mod consisting of species-name definition files and a mod descriptor. It integrates with the Universum Infinitum - Name Lists mod to extend the game's name generation system.
+
+See the [architecture documentation](./ARCHITECTURE.md) for the system context, principal components, runtime flows, ownership boundaries, dependencies, constraints, and extension points.
+
 ## 📚 Documentation
 
 Comprehensive documentation is available in the [docs/](./docs/) directory:
@@ -94,20 +121,6 @@ Comprehensive documentation is available in the [docs/](./docs/) directory:
 | [Troubleshooting](./docs/troubleshooting.md) | Common issues and solutions |
 | [FAQ](./docs/faq.md) | Frequently asked questions |
 | [Full Documentation Index](./docs/INDEX.md) | Complete catalogue |
-
-## ⚙️ GitHub Actions
-
-| Workflow | Purpose | What it does |
-|----------|---------|--------------|
-| [ github-release.yml ](https://github.com/hmlendea/stellaris-ui-species-names/blob/master/.github/workflows/github-release.yml) | GitHub Release | Builds `ui-species-names_<version>.zip` from the published tag, setting the descriptor version first, and attaches it to the GitHub release |
-| [ nexus-mods-release.yml ](https://github.com/hmlendea/stellaris-ui-species-names/blob/master/.github/workflows/nexus-mods-release.yml) | Release to Nexus Mods | Runs on a `v*.*.*` tag push or manual dispatch: checks out the tag, sets the descriptor version, zips the descriptor and content directory, and uploads `ui-species-names.zip` to Nexus Mods |
-| [ steam-workshop-release.yml ](https://github.com/hmlendea/stellaris-ui-species-names/blob/master/.github/workflows/steam-workshop-release.yml) | Release to Steam Workshop | Runs on a `v*.*.*` tag push or manual dispatch: checks out the tag, sets the descriptor version, zips and extracts the descriptor and content directory, and uploads the content directory to Workshop item `2040234709` with a changelog link |
-
-## 🏗️ Architecture
-
-Universum Infinitum: Species Names is a static Stellaris mod consisting of species-name definition files and a mod descriptor. It integrates with the Universum Infinitum - Name Lists mod to extend the game's name generation system.
-
-See the [architecture documentation](./ARCHITECTURE.md) for the system context, principal components, runtime flows, ownership boundaries, dependencies, constraints, and extension points.
 
 ## 🩺 Troubleshooting
 
@@ -135,11 +148,15 @@ See the [Code of Conduct](./CODE_OF_CONDUCT.md) for the standards of conduct exp
 
 ## 🔗 Related Projects
 
-- [Universum Infinitum: Flags](https://github.com/hmlendea/stellaris-ui-flags) — Custom flag emblems
-- [Universum Infinitum: Galaxy Sizes](https://github.com/hmlendea/stellaris-ui-galaxy-sizes) — Additional galaxy size options
-- [Universum Infinitum: Name Lists](https://github.com/hmlendea/stellaris-ui-name-lists) — Required dependency; base name list infrastructure
-- [Universum Infinitum: Prescripted Countries](https://github.com/hmlendea/stellaris-ui-prescripted-countries) — Pre-made empires
-- [Universum Infinitum: Star Names](https://github.com/hmlendea/stellaris-ui-star-names) — Custom star names
+- [Universum Infinitum - Character Traits](https://github.com/hmlendea/stellaris-ui-character-traits): Adds character traits for Stellaris.
+- [Universum Infinitum - Deposit Blockers](https://github.com/hmlendea/stellaris-ui-deposit-blockers): Adds deposit blockers for Stellaris.
+- [Universum Infinitum - Flags](https://github.com/hmlendea/stellaris-ui-flags): Supplies flag assets used by this mod.
+- [Universum Infinitum - Galaxy Sizes](https://github.com/hmlendea/stellaris-ui-galaxy-sizes): Adds galaxy size options for Stellaris.
+- [Universum Infinitum - Name Lists](https://github.com/hmlendea/stellaris-ui-name-lists): Supplies name lists used by this mod.
+- [Universum Infinitum - Planet Modifiers](https://github.com/hmlendea/stellaris-ui-planet-modifiers): Adds planet modifiers for Stellaris.
+- [Universum Infinitum - Species Names](https://github.com/hmlendea/stellaris-ui-species-names): Adds species names for Stellaris.
+- [Universum Infinitum - Species Traits](https://github.com/hmlendea/stellaris-ui-species-traits): Supplies species traits used by this mod.
+- [Universum Infinitum - Star Names](https://github.com/hmlendea/stellaris-ui-star-names): Adds star names for Stellaris.
 
 ## 🔒 Security
 

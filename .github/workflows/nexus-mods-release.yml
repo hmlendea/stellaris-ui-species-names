@@ -25,14 +25,24 @@ jobs:
 
     - name: Update the mod version
       run: |
-        sed -i "s/^version=\".*\"/version=\"${VERSION}\"/" "ui-species-names.mod" "ui-species-names/descriptor.mod"
+        MOD_VERSION="${VERSION#v}"
+
+        for DESCRIPTOR in "ui-species-names.mod" "ui-species-names/descriptor.mod"
+        do
+          if grep -q '^version=' "${DESCRIPTOR}"; then
+            sed -i "s/^version=.*/version=\"${MOD_VERSION}\"/" "${DESCRIPTOR}"
+          else
+            printf 'version="%s"\n' "${MOD_VERSION}" | cat - "${DESCRIPTOR}" > "${DESCRIPTOR}.tmp"
+            mv "${DESCRIPTOR}.tmp" "${DESCRIPTOR}"
+          fi
+        done
 
     - name: Build the release archive
       run: |
         zip -r "release.zip" "ui-species-names/" "ui-species-names.mod"
 
     - name: Upload
-      uses: Nexus-Mods/upload-action@v1.0.0-beta.10
+      uses: Nexus-Mods/upload-action@v1.0.0-beta.11
       with:
         api_key: ${{ secrets.NEXUSMODS_API_KEY }}
         file_id: 922891

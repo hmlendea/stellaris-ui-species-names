@@ -11,6 +11,7 @@ ART = {
     lacolla = { name = Lacolla  plural = Lacolli    home_planet = Lacollania    home_system = Lacoll    name_list = "ui_extra_art1" }
     mulkoz  = { name = Mulkoz   plural = Mulkozians home_planet = Mulkozza      home_system = Mulko     name_list = "ui_extra_art1" }
     naraak  = { name = Naraak   plural = Naraaki    home_planet = Naraaka       home_system = Nar       name_list = "ui_extra_art1" }
+    qorvax  = { name = Qorvax   plural = Qorvaxi    home_planet = Qorvazza      home_system = Qorv      name_list = "ui_extra_art1" }
     razaco  = { name = Razaco   plural = Razacans   home_planet = Razacozza     home_system = Raza      name_list = "ui_extra_art1" }
     szakom  = { name = Szakom   plural = Szakomans  home_planet = Szakoma       home_system = Szak      name_list = "ui_extra_art1" }
     zadodd  = { name = Zadodd   plural = Zadoddi    home_planet = Zadodda       home_system = Zad       name_list = "ui_extra_art1" }

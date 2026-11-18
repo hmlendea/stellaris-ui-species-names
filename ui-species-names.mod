@@ -1,7 +1,7 @@
-version="v1.7.4"
+version="1.7.5"
 name="Universum Infinitum: Species Names"
 path="mod/ui-species-names"
 tags={
     "Species"
 }
-supported_version="4.5.*"
+supported_version="v4.5.*"

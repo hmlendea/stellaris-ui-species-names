@@ -12,6 +12,7 @@ PLANT = {
     neloditolis = { name = Neloditolis  plural = Neloditoli     home_planet = Neloditolia       home_system = Neloda    name_list = "ui_extra_pla1" }
     ponarea     = { name = Ponarea      plural = Ponari         home_planet = Ponarea           home_system = Pona      name_list = "ui_extra_pla1" }
     rhodisia    = { name = Rhodisia     plural = Rhodisians     home_planet = Rhodisia          home_system = Rhodis    name_list = "ui_extra_pla1" }
+    solanara    = { name = Solanara     plural = Solanarans     home_planet = Solanaria         home_system = Solanar   name_list = "ui_extra_pla1" }
     verella     = { name = Verella      plural = Verelli        home_planet = Verellia          home_system = Verell    name_list = "ui_extra_pla1" }
     viaxila     = { name = Viaxila      plural = Viaxis         home_planet = Viaxila           home_system = Viax      name_list = "ui_extra_pla1" }
     ziaproeta   = { name = Ziaproeta    plural = Ziaproets      home_planet = Ziaproetia        home_system = Ziapra    name_list = "ui_extra_pla1" }
@@ -20,6 +21,7 @@ PLANT = {
     balbior     = { name = Bãlbior      plural = Bãlbiori       home_planet = Sânlean           home_system = Sânzi     name_list = "ui_extra_pla2" }
     canta       = { name = Cantã        plural = Cantãi         home_planet = Sãlãteni          home_system = Dracsa    name_list = "ui_extra_pla2" }
     corita      = { name = Coritã       plural = Coritãi        home_planet = Tãtarnitã         home_system = Cicoasã   name_list = "ui_extra_pla2" }
+    crinara     = { name = Crinarã      plural = Crinarãi       home_planet = Vãlcana           home_system = Târgu     name_list = "ui_extra_pla2" }
     dentina     = { name = Dentinã      plural = Dentinãi       home_planet = Târâta            home_system = Clãnicea  name_list = "ui_extra_pla2" }
     ferigar     = { name = Ferigar      plural = Ferigari       home_planet = Inãrel            home_system = Cãlugã    name_list = "ui_extra_pla2" }
     galatig     = { name = Gãlãtig      plural = Gãlãtigi       home_planet = Bãileni           home_system = Grivina   name_list = "ui_extra_pla2" }

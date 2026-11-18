@@ -4,6 +4,7 @@ FUN = {
     celin       = { name = Celin        plural = Celians        home_planet = Celinhaan     home_system = Cel           name_list = "ui_extra_fun1" }
     ganlarelviv = { name = Ganlarelviv  plural = Ganlarelvans   home_planet = Ganlarelv     home_system = Ganlar        name_list = "ui_extra_fun1" }
     jhool       = { name = Jhool        plural = Jhools         home_planet = Jhoolvib      home_system = Jhool         name_list = "ui_extra_fun1" }
+    mycelor     = { name = Mycelor      plural = Mycelori       home_planet = Mycelora      home_system = Mycel         name_list = "ui_extra_fun1" }
     pobelimy    = { name = Pobelimy     plural = Pobelimans     home_planet = Pobelitoor    home_system = Pobel         name_list = "ui_extra_fun1" }
     pogovongo   = { name = Pogovongo    plural = Pogovongi      home_planet = Pogovonoor    home_system = Pogo          name_list = "ui_extra_fun1" }
     provalyvian = { name = Provalyvian  plural = Provalyvians   home_planet = Provalyvaluus home_system = Provalyvia    name_list = "ui_extra_fun1" }

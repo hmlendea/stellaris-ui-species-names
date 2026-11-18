@@ -26,6 +26,7 @@ REP = {
     varba   = { name = Varba    plural = Varbas     home_planet = Varbadre      home_system = Varbalba      name_list = "ui_dnd_kobold" }
     vek     = { name = Vek      plural = Veks       home_planet = Vekdre        home_system = Vekulba       name_list = "ui_dnd_kobold" }
     vil     = { name = Vik      plural = Viks       home_planet = Vike          home_system = Dovne         name_list = "ui_dnd_kobold" }
+    vrosh   = { name = Vrosh    plural = Vroshans   home_planet = Vroshdre      home_system = Vroshulba     name_list = "ui_dnd_kobold" }
     vukru   = { name = Vukru    plural = Vukris     home_planet = Vukre         home_system = Megru         name_list = "ui_dnd_kobold" }
     zelba   = { name = Zelba    plural = Zelbari    home_planet = Zelbadre      home_system = Zelbalba      name_list = "ui_dnd_kobold" }
     zox     = { name = Zox      plural = Zoxi       home_planet = Zoxe          home_system = Atra          name_list = "ui_dnd_kobold" }

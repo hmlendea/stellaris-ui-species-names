@@ -4,6 +4,7 @@ MAM = {
     ciumeg      = { name = Ciumeg       plural = Ciumegs    home_planet = Ciuthe        home_system = Cium      name_list = "ui_extra_mam1" }
     crostor     = { name = Crostor      plural = Crostors   home_planet = Crosthe       home_system = Crostor   name_list = "ui_extra_mam1" }
     cugovug     = { name = Cugovug      plural = Cugovugs   home_planet = Cugovuthe     home_system = Cugor     name_list = "ui_extra_mam1" }
+    durem       = { name = Durem        plural = Durems     home_planet = Duremuthe     home_system = Duror     name_list = "ui_extra_mam1" }
     estrothi    = { name = Estrothi     plural = Estrothi   home_planet = Estrothe      home_system = Estro     name_list = "ui_extra_mam1" }
     kvastor     = { name = Kvastor      plural = Kvastors   home_planet = Kvathe        home_system = Kvastor   name_list = "ui_extra_mam1" }
     lerinid     = { name = Lerinid      plural = Lerinids   home_planet = Lerinithe     home_system = Lerinor   name_list = "ui_extra_mam1" }
@@ -19,6 +20,7 @@ MAM = {
     ### Extra Mammalians 2 ###
     belmenig    = { name = Belmenig     plural = Belmens    home_planet = Belmikh       home_system = Belmu     name_list = "ui_extra_mam2" }
     globu       = { name = Globu        plural = Globs      home_planet = Globko        home_system = Globu     name_list = "ui_extra_mam2" }
+    gruvo       = { name = Gruvo        plural = Gruvs      home_planet = Gruvko        home_system = Gruvu     name_list = "ui_extra_mam2" }
     igruvian    = { name = Igruvian     plural = Igruvians  home_planet = Igroviko      home_system = Igrovu    name_list = "ui_extra_mam2" }
     muntu       = { name = Muntu        plural = Munts      home_planet = Munko         home_system = Muntu     name_list = "ui_extra_mam2" }
     plasig      = { name = Plasig       plural = Plasigs    home_planet = Plasiku       home_system = Plasu     name_list = "ui_extra_mam2" }
@@ -35,20 +37,21 @@ MAM = {
     zuur        = { name = Zuur         plural = Zuuri      home_planet = Zuruku        home_system = Zur       name_list = "ui_extra_mam2" }
 
     ### Extra Mammalians 3 ###
-    sniko       = { name = Snikó        plural = Snikós     home_planet = Csordag       home_system = Felorsata name_list = "ui_extra_mam3" }
-    szilard     = { name = Szilárd      plural = Szilárds   home_planet = Lipsanyi      home_system = Yarnis    name_list = "ui_extra_mam3" }
-    shakuna     = { name = Shakuna      plural = Shakunans  home_planet = Ghatrucz      home_system = Kriam     name_list = "ui_extra_mam3" }
-    norban      = { name = Norban       plural = Norbans    home_planet = Lloder        home_system = Horth     name_list = "ui_extra_mam3" }
-    telende     = { name = Telendë      plural = Telendians home_planet = Ragbornabás   home_system = Logotha   name_list = "ui_extra_mam3" }
-    kurtha      = { name = Kürtha       plural = Kürthans   home_planet = Kürthy        home_system = Kürth     name_list = "ui_extra_mam3" }
-    lovak       = { name = Lovák        plural = Lováks     home_planet = Mónikó        home_system = Zanika    name_list = "ui_extra_mam3" }
-    nyeri       = { name = Nyeri        plural = Nyeris     home_planet = Ylrunca       home_system = Gyarma    name_list = "ui_extra_mam3" }
-    szerence    = { name = Szerence     plural = Szerencans home_planet = Crissë        home_system = Kriss     name_list = "ui_extra_mam3" }
-    pacsik      = { name = Pacsik       plural = Pacsiks    home_planet = Zsigmonk      home_system = Hollag    name_list = "ui_extra_mam3" }
-    szabinu     = { name = Szabinu      plural = Szabins    home_planet = Galdizsáry    home_system = Olfish    name_list = "ui_extra_mam3" }
-    bende       = { name = Bendë        plural = Bendians   home_planet = Skordo        home_system = Skoria    name_list = "ui_extra_mam3" }
-    iminko      = { name = Iminikő      plural = Iminikős   home_planet = Földeszt      home_system = Kalok     name_list = "ui_extra_mam3" }
     balayag     = { name = Balayag      plural = Balayags   home_planet = Kozmashegg    home_system = Shatrinkë name_list = "ui_extra_mam3" }
+    bende       = { name = Bendë        plural = Bendians   home_planet = Skordo        home_system = Skoria    name_list = "ui_extra_mam3" }
     czako       = { name = Czakó        plural = Czakós     home_planet = Zsuzsanáro    home_system = Ly'orash  name_list = "ui_extra_mam3" }
     gyular      = { name = Gyular       plural = Gyulars    home_planet = Tyelkoria     home_system = Ulmary    name_list = "ui_extra_mam3" }
+    iminko      = { name = Iminikő      plural = Iminikős   home_planet = Földeszt      home_system = Kalok     name_list = "ui_extra_mam3" }
+    kurtha      = { name = Kürtha       plural = Kürthans   home_planet = Kürthy        home_system = Kürth     name_list = "ui_extra_mam3" }
+    lovak       = { name = Lovák        plural = Lováks     home_planet = Mónikó        home_system = Zanika    name_list = "ui_extra_mam3" }
+    norban      = { name = Norban       plural = Norbans    home_planet = Lloder        home_system = Horth     name_list = "ui_extra_mam3" }
+    nyeri       = { name = Nyeri        plural = Nyeris     home_planet = Ylrunca       home_system = Gyarma    name_list = "ui_extra_mam3" }
+    pacsik      = { name = Pacsik       plural = Pacsiks    home_planet = Zsigmonk      home_system = Hollag    name_list = "ui_extra_mam3" }
+    shakuna     = { name = Shakuna      plural = Shakunans  home_planet = Ghatrucz      home_system = Kriam     name_list = "ui_extra_mam3" }
+    sniko       = { name = Snikó        plural = Snikós     home_planet = Csordag       home_system = Felorsata name_list = "ui_extra_mam3" }
+    szabinu     = { name = Szabinu      plural = Szabins    home_planet = Galdizsáry    home_system = Olfish    name_list = "ui_extra_mam3" }
+    szerence    = { name = Szerence     plural = Szerencans home_planet = Crissë        home_system = Kriss     name_list = "ui_extra_mam3" }
+    szilard     = { name = Szilárd      plural = Szilárds   home_planet = Lipsanyi      home_system = Yarnis    name_list = "ui_extra_mam3" }
+    telende     = { name = Telendë      plural = Telendians home_planet = Ragbornabás   home_system = Logotha   name_list = "ui_extra_mam3" }
+    zsoltan     = { name = Zsoltán      plural = Zsoltáns   home_planet = Havasvár      home_system = Zsombor   name_list = "ui_extra_mam3" }
 }

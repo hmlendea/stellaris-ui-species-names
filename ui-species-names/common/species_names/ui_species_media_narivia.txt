@@ -8,6 +8,7 @@ HUM = {
     dumar   = { name = Dumar    plural = Dumars     home_planet = "Nos Dumar"       home_system = "Dumakar"         name_list = "ui_narivia_rodah" }
     durak   = { name = Durak    plural = Duraki     home_planet = "Gul Gogra"       home_system = "Gograkar"        name_list = "ui_narivia_rodah" }
     ghorzul = { name = Kazul    plural = Kazuls     home_planet = "Kas Kazul"       home_system = "Kazulakar"       name_list = "ui_narivia_rodah" }
+    gormak  = { name = Gormak   plural = Gormaki    home_planet = "Kaz Gormak"      home_system = "Gormakar"        name_list = "ui_narivia_rodah" }
     klontar = { name = Klontar  plural = Klontars   home_planet = "Mar Klonta"      home_system = "Klontakar"       name_list = "ui_narivia_rodah" }
     legulan = { name = Legulan  plural = Legulans   home_planet = "Son Legul"       home_system = "Legulakar"       name_list = "ui_narivia_rodah" }
     melkar  = { name = Melkar   plural = Melkars    home_planet = "Gal Melkar"      home_system = "Melkar"          name_list = "ui_narivia_rodah" }

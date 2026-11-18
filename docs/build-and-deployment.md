@@ -25,7 +25,7 @@ This mod has **no build process**. The source files are the distribution artefac
    - `ui-species-names.mod`
    - `ui-species-names/descriptor.mod`
 
-   The Nexus Mods and Steam Workshop workflows also set this `version` from the released tag at run time, including the leading `v`, so the committed values only need to be current on the default branch.
+   All three release workflows also set this `version` from the released tag at run time, stripping the leading `v` (tag `v1.7.4` produces `version = "1.7.4"`), so the committed values only need to be current on the default branch. Each workflow inserts the `version` line when a descriptor does not contain one.
 
 2. **Verify consistency**:
    ```bash
@@ -174,9 +174,9 @@ No version pinning — this mod works with any version of Name Lists mod that pr
 
 | Workflow | Trigger | What it does |
 |----------|---------|--------------|
-| `github-release.yml` | Published GitHub release | Builds `ui-species-names_<version>.zip` from the release tag and attaches it as the release asset |
-| `nexus-mods-release.yml` | `v*.*.*` tag push or manual dispatch with a `tag` input | Builds the release archive locally, sets `version` in both descriptor files to the tag name (with the leading `v`), and uploads it to Nexus Mods |
-| `steam-workshop-release.yml` | `v*.*.*` tag push or manual dispatch with a `tag` input | Builds the release archive locally, sets `version` in both descriptor files to the tag name (with the leading `v`), and uploads it to Steam Workshop |
+| `github-release.yml` | Published GitHub release | Sets `version` in both descriptor files to the release tag without the leading `v`, inserting the line when absent, then builds `ui-species-names_<version>.zip` and attaches it as the release asset |
+| `nexus-mods-release.yml` | `v*.*.*` tag push or manual dispatch with a `tag` input | Builds the release archive locally, sets `version` in both descriptor files to the tag name without the leading `v`, inserting the line when absent, and uploads it to Nexus Mods |
+| `steam-workshop-release.yml` | `v*.*.*` tag push or manual dispatch with a `tag` input | Builds the release archive locally, sets `version` in both descriptor files to the tag name without the leading `v`, inserting the line when absent, and uploads it to Steam Workshop |
 
 Each distribution workflow builds its own archive from the checked-out tag; none downloads the GitHub release asset. Both distribution workflows accept a manual `tag` input so a release can be republished without a new tag.
 

@@ -23,6 +23,21 @@ jobs:
         VERSION="${VERSION#v}"
         echo "version=${VERSION}" >> "$GITHUB_OUTPUT"
 
+    - name: Update the mod version
+      shell: bash
+      run: |
+        MOD_VERSION="${{ steps.version.outputs.version }}"
+
+        for DESCRIPTOR in "ui-species-names.mod" "ui-species-names/descriptor.mod"
+        do
+          if grep -q '^version=' "${DESCRIPTOR}"; then
+            sed -i "s/^version=.*/version=\"${MOD_VERSION}\"/" "${DESCRIPTOR}"
+          else
+            printf 'version="%s"\n' "${MOD_VERSION}" | cat - "${DESCRIPTOR}" > "${DESCRIPTOR}.tmp"
+            mv "${DESCRIPTOR}.tmp" "${DESCRIPTOR}"
+          fi
+        done
+
     - name: Build the release archive
       id: package
       shell: bash

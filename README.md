@@ -99,9 +99,9 @@ Comprehensive documentation is available in the [docs/](./docs/) directory:
 
 | Workflow | Purpose | What it does |
 |----------|---------|--------------|
-| [ github-release.yml ](https://github.com/hmlendea/stellaris-ui-species-names/blob/master/.github/workflows/github-release.yml) | GitHub Release | Builds `ui-species-names_<version>.zip` from the published tag and attaches it to the GitHub release |
-| [ nexus-mods-release.yml ](https://github.com/hmlendea/stellaris-ui-species-names/blob/master/.github/workflows/nexus-mods-release.yml) | Release to Nexus Mods | Builds the archive itself on tag push or manual dispatch, sets the descriptor version from the tag, and uploads to Nexus Mods |
-| [ steam-workshop-release.yml ](https://github.com/hmlendea/stellaris-ui-species-names/blob/master/.github/workflows/steam-workshop-release.yml) | Release to Steam Workshop | Builds the archive itself on tag push or manual dispatch, sets the descriptor version from the tag, and uploads to Steam Workshop |
+| [ github-release.yml ](https://github.com/hmlendea/stellaris-ui-species-names/blob/master/.github/workflows/github-release.yml) | GitHub Release | Builds `ui-species-names_<version>.zip` from the published tag, setting the descriptor version first, and attaches it to the GitHub release |
+| [ nexus-mods-release.yml ](https://github.com/hmlendea/stellaris-ui-species-names/blob/master/.github/workflows/nexus-mods-release.yml) | Release to Nexus Mods | Runs on a `v*.*.*` tag push or manual dispatch: checks out the tag, sets the descriptor version, zips the descriptor and content directory, and uploads `ui-species-names.zip` to Nexus Mods |
+| [ steam-workshop-release.yml ](https://github.com/hmlendea/stellaris-ui-species-names/blob/master/.github/workflows/steam-workshop-release.yml) | Release to Steam Workshop | Runs on a `v*.*.*` tag push or manual dispatch: checks out the tag, sets the descriptor version, zips and extracts the descriptor and content directory, and uploads the content directory to Workshop item `2040234709` with a changelog link |
 
 ## 🏗️ Architecture
 

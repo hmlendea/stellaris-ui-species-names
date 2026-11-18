@@ -14,5 +14,6 @@ MOL = {
     malwegollwa = { name = Malwegollwa  plural = Malwegollvians home_planet = Malwegollow   home_system = Gollow    name_list = "ui_extra_mol1" }
     sebanna     = { name = Sebanna      plural = Sebanns        home_planet = Sebannasch    home_system = Seba      name_list = "ui_extra_mol1" }
     sejethann   = { name = Sejethann    plural = Sejethani      home_planet = Sejethi       home_system = Sejet     name_list = "ui_extra_mol1" }
+    veltoth     = { name = Veltoth      plural = Veltothi       home_planet = Veltothasch   home_system = Veltoth   name_list = "ui_extra_mol1" }
     wacera      = { name = Wacera       plural = Wacers         home_planet = Waceragga     home_system = Wacer     name_list = "ui_extra_mol1" }
 }
